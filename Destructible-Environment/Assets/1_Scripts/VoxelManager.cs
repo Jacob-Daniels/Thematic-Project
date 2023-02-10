@@ -34,8 +34,8 @@ public class VoxelManager : MonoBehaviour
                     // Instantiate voxel object
                     if (voxels[x, y, z] == 1)
                     {
-                        GameObject voxelObj = Instantiate(voxelPrefab, new Vector3(x, y, z), quaternion.identity);
-                        voxelObj.transform.parent = voxelParent;
+                        //GameObject voxelObj = Instantiate(voxelPrefab, new Vector3(x, y, z), quaternion.identity);
+                        //voxelObj.transform.parent = voxelParent;
                     }
                 }
             }
