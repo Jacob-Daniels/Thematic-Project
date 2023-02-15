@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+'first person controller'/[L1]ibrary/
 Prototypes/Destructible-Environment/[Ll]ibrary/
 Prototypes/Destructible-Environment/[Tt]emp/
 Prototypes/Destructible-Environment/[Oo]bj/
