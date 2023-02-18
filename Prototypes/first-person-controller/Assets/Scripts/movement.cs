@@ -4,19 +4,44 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-
-    public float speed, RotateValue;
+    long sprint;
+    float tempspeed, shiftspeed;
+    public int sprintmax;
+    public float speed, RotateValue, jumpValue;
     public Transform forward, strafe;
-    bool cameraState;
+    bool cameraState, grounded;
+    Rigidbody rb;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        grounded = true;
         cameraState = false;
+        rb = GetComponent<Rigidbody>();
+        sprint = 0;
+        shiftspeed = 2 * speed;
+        tempspeed = speed;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(sprint < sprintmax && !Input.GetKey(KeyCode.LeftShift))
+        {
+            sprint++;
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) && sprint > 0)
+        {
+            speed = shiftspeed;
+            sprint--;
+        }
+        else
+        {
+            speed = tempspeed;
+        }
+
         if (Input.GetKey("w"))
         {
             transform.position = Vector3.MoveTowards(transform.position, forward.position, speed * Time.deltaTime);
@@ -35,15 +60,22 @@ public class movement : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, strafe.position, -speed * Time.deltaTime);
         }
 
-        transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X") * RotateValue * Time.deltaTime, 0), Space.World);
-    }
+        if (Input.GetKey(KeyCode.Space) && grounded)
+        {
+            grounded = !grounded;
+            rb.AddForce(new Vector3(0, jumpValue, 0));
+        }
 
-    /*void FixedUpdate() //this code is used to switch between 1st and 3rd person, currently buggy
-    {
-        if (Input.GetKey("t"))
+        if (Input.GetKeyDown("t"))//this code is used to switch between 1st and 3rd person, currently buggy
         {
             cameraState = !cameraState;
         }
+
+        transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X") * RotateValue * Time.deltaTime, 0), Space.World);
+    }
+
+    void FixedUpdate() 
+    {
 
         if (cameraState)
         {
@@ -53,5 +85,13 @@ public class movement : MonoBehaviour
         {
             transform.GetChild(0).GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
         }
-    }*/
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag == "Ground")
+        {
+            grounded = true;
+        }
+    }
 }
