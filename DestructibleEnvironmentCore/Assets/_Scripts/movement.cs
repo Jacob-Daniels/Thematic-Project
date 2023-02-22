@@ -12,6 +12,11 @@ public class movement : MonoBehaviour
     bool cameraState, grounded;
     Rigidbody rb;
 
+    private void Awake()
+    {
+        // Lock/hide the cursor for playermovement
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
     // Start is called before the first frame update
     void Start()
