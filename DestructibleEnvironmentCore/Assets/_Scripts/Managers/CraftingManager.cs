@@ -5,4 +5,11 @@ using UnityEngine;
 public class CraftingManager : MonoBehaviour
 {
     public Recipe[] recipes;
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            
+        }
+    }
 }

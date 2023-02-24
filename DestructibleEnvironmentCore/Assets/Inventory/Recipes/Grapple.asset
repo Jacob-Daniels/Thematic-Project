@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6627ed9ff1666ff41b3ed9c7106bb43f, type: 3}
+  m_Name: Grapple
+  m_EditorClassIdentifier: 
+  name: Grapple
+  description: Grappling Hook
+  id: 3
+  itemsRequired:
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    total: 0
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    total: 3
