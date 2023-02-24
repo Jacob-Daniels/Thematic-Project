@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+pickup-mechanic/[Ll]ibrary/
 first-person-controller/[Ll]ibrary/
 Destructible-Environment/[Ll]ibrary/
 Destructible-Environment/[Tt]emp/
