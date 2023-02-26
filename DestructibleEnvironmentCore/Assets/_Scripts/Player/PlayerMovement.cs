@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Get local movement
         Vector3 localMove = transform.right * Input.GetAxis("Horizontal") + transform.forward * Input.GetAxis("Vertical");
-        
+
         // Move player
         rb.MovePosition(transform.position + localMove * speed * Time.deltaTime);
     }

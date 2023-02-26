@@ -8,6 +8,7 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private float sensitivity = 100f;
     [SerializeField] private float verticalClamp = 80f;
     float xRotation = 0f;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -22,6 +23,8 @@ public class PlayerLook : MonoBehaviour
         // Vertical mouse movement
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -verticalClamp, verticalClamp);
+
+        // Vertical mouse movement
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         // Horizontal mouse movement
