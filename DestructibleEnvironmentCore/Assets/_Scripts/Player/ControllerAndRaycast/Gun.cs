@@ -1,10 +1,12 @@
+using System.Diagnostics;
 using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
     public float damage = 10f, range = 100f, firerate = 15f;
     public Camera fpsCam;
-    //public GameObject bullet;
+    bool holding = false;
+    public GameObject barrel;
 
     private float reload = 0f;
     // Update is called once per frame
@@ -12,10 +14,11 @@ public class Gun : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))//hold left click
         {
-            Shoot();
+            Pickup();
         }
-        else if (Input.GetButtonUp("Fire1"))//release left click
+        else if (Input.GetButtonUp("Fire1") && holding)//release left click
         {
+            holding = false;
             for(int i = 3; i < transform.parent.childCount; i++)
             {
                 transform.parent.GetChild(i).GetComponent<Collider>().enabled = true;
@@ -26,10 +29,6 @@ public class Gun : MonoBehaviour
         {
             addtoInventory();
         }
-        else if(Input.GetButtonUp("Fire2"))//release right click
-        {
-            removefromInventory();
-        }
     }
 
     void Shoot()
@@ -37,8 +36,6 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))//generate ray
         {
-            Debug.Log(hit.transform.name);
-
             if(hit.transform.gameObject.layer != 3)//wont pickup anything on layer 3
             {
                 hit.collider.enabled = false;
@@ -52,8 +49,21 @@ public class Gun : MonoBehaviour
         //add to inventory
     }
 
-    void removefromInventory()
+    void Pickup()
     {
-        //remove code goes here
+        RaycastHit hit;
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))//generate ray
+        {
+            if (hit.transform.gameObject.tag == "Movable")//only picks up objects that are movable
+            {
+                holding = true;
+                hit.collider.enabled = false;
+                hit.transform.SetParent(transform.parent);
+            }
+            else if (hit.transform.gameObject.tag == "Barrel")
+            {
+                GameObject newObject = Instantiate(barrel, hit.transform.position, hit.transform.rotation, hit.transform.parent);
+            }
+        }
     }
 }

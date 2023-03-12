@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Environment
+  - Movable
+  - Barrel
   layers:
   - Default
   - TransparentFX
