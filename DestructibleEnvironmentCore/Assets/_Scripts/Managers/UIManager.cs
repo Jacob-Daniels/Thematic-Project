@@ -26,4 +26,12 @@ public class UIManager : MonoBehaviour
             }
         }
     }
+
+    public void PlaceItem()
+    {
+        displayInventory.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1f;
+
+    }
 }
