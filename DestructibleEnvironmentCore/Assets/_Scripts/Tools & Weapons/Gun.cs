@@ -62,7 +62,8 @@ public class Gun : MonoBehaviour
             }
             else if (hit.transform.gameObject.tag == "Barrel")
             {
-                GameObject newObject = Instantiate(barrel, hit.transform.position, hit.transform.rotation, hit.transform.parent);
+                hit.collider.GetComponent<Break>().BreakObject();
+                //GameObject newObject = Instantiate(barrel, hit.transform.position, hit.transform.rotation, hit.transform.parent);
             }
         }
     }

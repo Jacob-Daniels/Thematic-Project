@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Recipe", menuName = "Inventory/Recipe")]
 public class Recipe : ScriptableObject
 {
+    // Scriptable object to create a recipe for an object
     public string recipeName;
     public Sprite icon;
     public string summary;

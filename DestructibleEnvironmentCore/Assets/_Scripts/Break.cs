@@ -8,13 +8,16 @@ public class Break : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown("f"))
-            BreakTheThing();
+        if (Input.GetKeyDown("f"))
+        {
+            BreakObject();
+        }
     }
 
-    public void BreakTheThing()
+    public void BreakObject()
     {
-        Instantiate(fractured, transform.position, transform.rotation);
+        GameObject obj = Instantiate(fractured, transform.position, transform.rotation);
+        obj.transform.localScale = new Vector3(gameObject.transform.localScale.x, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
         Destroy(gameObject);
     }
 }
