@@ -15,13 +15,7 @@ public class PlayerMovementv2 : MonoBehaviour
     [SerializeField] private float groundDistance = 0.5f;
     [SerializeField] private float jumpDistance = 10f;
     private bool isGrounded;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundTransform.position, groundDistance, groundMask);
@@ -47,8 +41,5 @@ public class PlayerMovementv2 : MonoBehaviour
 
 
         rigidbody.velocity = rigidbody.velocity + actualMovement;
-
-       
-      
     }
 }

@@ -43,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
         // Get local movement
         Vector3 localMove = transform.right * Input.GetAxis("Horizontal") + transform.forward * Input.GetAxis("Vertical");
 
-        // Move player
+        // Move player & reset angular velocity
+        rb.angularVelocity = new Vector3(0, 0, 0);
         rb.MovePosition(transform.position + localMove * speed * Time.deltaTime);
     }
 }
