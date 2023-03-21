@@ -6,18 +6,17 @@ public class Break : MonoBehaviour
 {
     public GameObject fractured;
 
-    void Update()
-    {
-        if (Input.GetKeyDown("f"))
-        {
-            BreakObject();
-        }
-    }
-
     public void BreakObject()
     {
+        // Instantiate shattered object & delete old object
         GameObject obj = Instantiate(fractured, transform.position, transform.rotation);
         obj.transform.localScale = new Vector3(gameObject.transform.localScale.x, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
+        StartCoroutine(DestroyObject());
+    }
+
+    IEnumerator DestroyObject()
+    {
+        yield return new WaitForSeconds(0.05f);
         Destroy(gameObject);
     }
 }
