@@ -23,10 +23,7 @@ public class PlayerMovementv2 : MonoBehaviour
         {
             rigidbody.AddForce(transform.up * jumpDistance, ForceMode.Impulse);
         }
-    }
 
-    void FixedUpdate()
-    {
         Vector3 movement = new Vector3();
 
         movement.x = Input.GetAxis("Horizontal");
@@ -41,5 +38,11 @@ public class PlayerMovementv2 : MonoBehaviour
 
 
         rigidbody.velocity = rigidbody.velocity + actualMovement;
+        
+    }
+
+    void FixedUpdate()
+    {
+       
     }
 }
