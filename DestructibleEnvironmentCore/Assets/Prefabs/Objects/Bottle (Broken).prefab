@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2842313713134845789}
   - component: {fileID: 4501094315327398175}
   - component: {fileID: 4408281978864822453}
+  - component: {fileID: 1768955630383229510}
   m_Layer: 8
   m_Name: GlassBottle_Part_6
   m_TagString: Untagged
@@ -132,6 +133,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1768955630383229510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75193454129518400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119430364348812981
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +159,7 @@ GameObject:
   - component: {fileID: 2223017083847857186}
   - component: {fileID: 2014817410453790881}
   - component: {fileID: 6207778769908394564}
+  - component: {fileID: 8006042661541885188}
   m_Layer: 8
   m_Name: GlassBottle_Part_4
   m_TagString: Untagged
@@ -264,6 +278,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &8006042661541885188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119430364348812981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2482374099352929198
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +304,7 @@ GameObject:
   - component: {fileID: 956079021365555747}
   - component: {fileID: 4188390546267654963}
   - component: {fileID: 7667859290605285730}
+  - component: {fileID: 8808791737305103778}
   m_Layer: 8
   m_Name: GlassBottle_Part_7
   m_TagString: Untagged
@@ -396,6 +423,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &8808791737305103778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2482374099352929198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3068524058762542396
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +449,7 @@ GameObject:
   - component: {fileID: 2023822737413532197}
   - component: {fileID: 7600356518713381396}
   - component: {fileID: 7784098660304242330}
+  - component: {fileID: 3163361733255780386}
   m_Layer: 8
   m_Name: GlassBottle_Part_10
   m_TagString: Untagged
@@ -528,6 +568,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &3163361733255780386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068524058762542396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3530441813448238450
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +594,7 @@ GameObject:
   - component: {fileID: 273178701680813476}
   - component: {fileID: 1481674637135049764}
   - component: {fileID: 2596926559187959250}
+  - component: {fileID: 8593217169717382976}
   m_Layer: 8
   m_Name: GlassBottle_Part_5
   m_TagString: Untagged
@@ -660,6 +713,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &8593217169717382976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3530441813448238450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3941061964377189881
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +739,7 @@ GameObject:
   - component: {fileID: 1143166379020533407}
   - component: {fileID: 2953598171418347554}
   - component: {fileID: 4441797978905504343}
+  - component: {fileID: 3086934635381232422}
   m_Layer: 8
   m_Name: GlassBottle_Part_2
   m_TagString: Untagged
@@ -792,6 +858,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &3086934635381232422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941061964377189881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4597396201678994448
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +884,7 @@ GameObject:
   - component: {fileID: 3429452433484783811}
   - component: {fileID: 5769368266163928415}
   - component: {fileID: 8249614548216435085}
+  - component: {fileID: 9131585414474208326}
   m_Layer: 8
   m_Name: GlassBottle_Part_8
   m_TagString: Untagged
@@ -924,6 +1003,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &9131585414474208326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597396201678994448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6573725807010665114
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1070,7 @@ GameObject:
   - component: {fileID: 2428897061709945650}
   - component: {fileID: 8922788494338754281}
   - component: {fileID: 6581145223336072037}
+  - component: {fileID: 2238002062667737429}
   m_Layer: 8
   m_Name: GlassBottle_Part_1
   m_TagString: Untagged
@@ -1097,6 +1189,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2238002062667737429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915225631736031183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7845536718659711093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1215,7 @@ GameObject:
   - component: {fileID: 3045846166335699649}
   - component: {fileID: 9091589906308491801}
   - component: {fileID: 4281660283624365129}
+  - component: {fileID: 8827509017684569834}
   m_Layer: 8
   m_Name: GlassBottle_Part_3
   m_TagString: Untagged
@@ -1229,6 +1334,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &8827509017684569834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7845536718659711093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8953020905825737250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1360,7 @@ GameObject:
   - component: {fileID: 9213400844960808865}
   - component: {fileID: 8026317722117490857}
   - component: {fileID: 8242027526099597447}
+  - component: {fileID: 2524576940894649076}
   m_Layer: 8
   m_Name: GlassBottle_Part_9
   m_TagString: Untagged
@@ -1361,3 +1479,15 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2524576940894649076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953020905825737250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

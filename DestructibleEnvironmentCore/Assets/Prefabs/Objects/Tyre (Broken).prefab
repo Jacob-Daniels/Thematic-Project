@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2575689857950493517}
   - component: {fileID: 5417167424942400630}
   - component: {fileID: 5281043078066172525}
+  - component: {fileID: 6506814991432560021}
   m_Layer: 8
   m_Name: Tyre001_Part_4
   m_TagString: Untagged
@@ -132,6 +133,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6506814991432560021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137736112092419995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &826371923915501255
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +159,7 @@ GameObject:
   - component: {fileID: 3212698725161605999}
   - component: {fileID: 8669394959569711733}
   - component: {fileID: 6317564624080906347}
+  - component: {fileID: 840826881828125577}
   m_Layer: 8
   m_Name: Tyre001_Part_10
   m_TagString: Untagged
@@ -264,6 +278,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &840826881828125577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826371923915501255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1927376296709693300
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +304,7 @@ GameObject:
   - component: {fileID: 5756325378663519475}
   - component: {fileID: 2390767831448876277}
   - component: {fileID: 1676404007433079828}
+  - component: {fileID: 5949903159942923196}
   m_Layer: 8
   m_Name: Tyre001_Part_9
   m_TagString: Untagged
@@ -396,6 +423,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5949903159942923196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927376296709693300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2004943108162086267
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +490,7 @@ GameObject:
   - component: {fileID: 4286633668739505006}
   - component: {fileID: 9092906553032469166}
   - component: {fileID: 92507367369958384}
+  - component: {fileID: 5198673775278009207}
   m_Layer: 8
   m_Name: Tyre001_Part_8
   m_TagString: Untagged
@@ -569,6 +609,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5198673775278009207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457492697477384655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3249947234279737436
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +635,7 @@ GameObject:
   - component: {fileID: 2733155720624659272}
   - component: {fileID: 4807704292233855625}
   - component: {fileID: 3785454926294326425}
+  - component: {fileID: 2797963750105616726}
   m_Layer: 8
   m_Name: Tyre001_Part_3
   m_TagString: Untagged
@@ -701,6 +754,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &2797963750105616726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249947234279737436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4358915164455327114
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +780,7 @@ GameObject:
   - component: {fileID: 3420775872941979060}
   - component: {fileID: 6131439474185507734}
   - component: {fileID: 8524144833816584340}
+  - component: {fileID: 1423137125500563756}
   m_Layer: 8
   m_Name: Tyre001_Part_5
   m_TagString: Untagged
@@ -833,6 +899,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1423137125500563756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4358915164455327114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4493052552754658486
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +925,7 @@ GameObject:
   - component: {fileID: 1145940432326138305}
   - component: {fileID: 4060846727285589612}
   - component: {fileID: 6272142510609160379}
+  - component: {fileID: 6167413397524543038}
   m_Layer: 8
   m_Name: Tyre001_Part_1
   m_TagString: Untagged
@@ -965,6 +1044,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6167413397524543038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493052552754658486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4616996458117671113
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1070,7 @@ GameObject:
   - component: {fileID: 4105174600395424626}
   - component: {fileID: 4747280313938849730}
   - component: {fileID: 3191655445163103850}
+  - component: {fileID: 503632168613329899}
   m_Layer: 8
   m_Name: Tyre001_Part_7
   m_TagString: Untagged
@@ -1097,6 +1189,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &503632168613329899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616996458117671113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7707215411816159871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1215,7 @@ GameObject:
   - component: {fileID: 8619591803217727266}
   - component: {fileID: 6776177552810025193}
   - component: {fileID: 5228770256025977899}
+  - component: {fileID: 3906575343862991078}
   m_Layer: 8
   m_Name: Tyre001_Part_2
   m_TagString: Untagged
@@ -1229,6 +1334,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &3906575343862991078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7707215411816159871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8993512527904103278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1360,7 @@ GameObject:
   - component: {fileID: 2054846661786265016}
   - component: {fileID: 7638573521805230791}
   - component: {fileID: 6379621018560683746}
+  - component: {fileID: 5521382508946756256}
   m_Layer: 8
   m_Name: Tyre001_Part_6
   m_TagString: Untagged
@@ -1361,3 +1479,15 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5521382508946756256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993512527904103278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

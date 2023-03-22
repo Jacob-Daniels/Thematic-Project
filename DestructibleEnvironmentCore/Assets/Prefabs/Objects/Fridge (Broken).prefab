@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6777901997063304496}
   - component: {fileID: 7209332671067345104}
   - component: {fileID: 6110948958563583517}
+  - component: {fileID: 7105208308353957643}
   m_Layer: 8
   m_Name: Fridge_Part_1
   m_TagString: Untagged
@@ -133,6 +134,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7105208308353957643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326173996332975266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3071677562028256830
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +160,7 @@ GameObject:
   - component: {fileID: 1722381661045687360}
   - component: {fileID: 5770336511257373834}
   - component: {fileID: 7494105986906226942}
+  - component: {fileID: 5750781112246273416}
   m_Layer: 8
   m_Name: Fridge_Part_9
   m_TagString: Untagged
@@ -266,6 +280,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5750781112246273416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071677562028256830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3518633903339998347
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +306,7 @@ GameObject:
   - component: {fileID: 8877864958145281505}
   - component: {fileID: 7233150665910989902}
   - component: {fileID: 2595462939105840249}
+  - component: {fileID: 5203750321575771762}
   m_Layer: 8
   m_Name: Fridge_Part_3
   m_TagString: Untagged
@@ -399,6 +426,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5203750321575771762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3518633903339998347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3849829533678685099
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +452,7 @@ GameObject:
   - component: {fileID: 4655259848246579856}
   - component: {fileID: 1041341357397525881}
   - component: {fileID: 8082514443717829081}
+  - component: {fileID: 183350317246609921}
   m_Layer: 8
   m_Name: Fridge_Part_8
   m_TagString: Untagged
@@ -531,6 +571,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &183350317246609921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3849829533678685099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4020542542329403806
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +597,7 @@ GameObject:
   - component: {fileID: 3258456425460578745}
   - component: {fileID: 2999361113474036879}
   - component: {fileID: 3224586023901587087}
+  - component: {fileID: 4144710125816885925}
   m_Layer: 8
   m_Name: Fridge_Part_10
   m_TagString: Untagged
@@ -664,6 +717,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &4144710125816885925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020542542329403806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4420222781778948563
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +743,7 @@ GameObject:
   - component: {fileID: 5405937572388272592}
   - component: {fileID: 3417885266999065713}
   - component: {fileID: 6187688875253406324}
+  - component: {fileID: 6732423956537617128}
   m_Layer: 8
   m_Name: Fridge_Part_7
   m_TagString: Untagged
@@ -796,6 +862,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6732423956537617128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420222781778948563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5684834516562254301
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,6 +888,7 @@ GameObject:
   - component: {fileID: 4591282002474997652}
   - component: {fileID: 6064464886632907819}
   - component: {fileID: 1568142568287389676}
+  - component: {fileID: 5962235499596971324}
   m_Layer: 8
   m_Name: Fridge_Part_2
   m_TagString: Untagged
@@ -928,6 +1007,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5962235499596971324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5684834516562254301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7231844845280769593
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1033,7 @@ GameObject:
   - component: {fileID: 9083013737961867806}
   - component: {fileID: 8312103503658665753}
   - component: {fileID: 1800550044225628083}
+  - component: {fileID: 6435542920595677043}
   m_Layer: 8
   m_Name: Fridge_Part_6
   m_TagString: Untagged
@@ -1060,6 +1152,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6435542920595677043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231844845280769593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7884043931629240618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1178,7 @@ GameObject:
   - component: {fileID: 8066998997951990003}
   - component: {fileID: 7120843800196954853}
   - component: {fileID: 4439743225004285320}
+  - component: {fileID: 7721887876666127064}
   m_Layer: 8
   m_Name: Fridge_Part_4
   m_TagString: Untagged
@@ -1193,6 +1298,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7721887876666127064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7884043931629240618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9026986365822824225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1324,7 @@ GameObject:
   - component: {fileID: 2967678852049571383}
   - component: {fileID: 3996135981398899609}
   - component: {fileID: 4551467380611671919}
+  - component: {fileID: 9163278976154638996}
   m_Layer: 8
   m_Name: Fridge_Part_5
   m_TagString: Untagged
@@ -1326,6 +1444,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &9163278976154638996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026986365822824225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9195661481831357436
 GameObject:
   m_ObjectHideFlags: 0

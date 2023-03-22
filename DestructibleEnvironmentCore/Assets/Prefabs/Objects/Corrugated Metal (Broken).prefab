@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 748526048096832607}
   - component: {fileID: 1112622103188292472}
   - component: {fileID: 7140922184695788902}
+  - component: {fileID: 1686212595315516259}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_4
   m_TagString: Untagged
@@ -132,6 +133,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1686212595315516259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911933559789572455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1214626500520959928
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +159,7 @@ GameObject:
   - component: {fileID: 4752376559144212378}
   - component: {fileID: 8384525950502583458}
   - component: {fileID: 4109127892208887277}
+  - component: {fileID: 3530511173456674211}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_10
   m_TagString: Untagged
@@ -264,6 +278,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &3530511173456674211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214626500520959928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1425349490876655760
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +304,7 @@ GameObject:
   - component: {fileID: 749468950479700467}
   - component: {fileID: 3172296767375600180}
   - component: {fileID: 1229105748665676842}
+  - component: {fileID: 1010566135032749802}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_3
   m_TagString: Untagged
@@ -396,6 +423,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1010566135032749802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425349490876655760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1732085208690659302
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +490,7 @@ GameObject:
   - component: {fileID: 9032472890722284412}
   - component: {fileID: 7475573906150772688}
   - component: {fileID: 8060346957340592623}
+  - component: {fileID: 6569666649690586435}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_5
   m_TagString: Untagged
@@ -569,6 +609,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6569666649690586435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2446345741347606036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3204501927604191059
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +635,7 @@ GameObject:
   - component: {fileID: 5231205966411684174}
   - component: {fileID: 4495330748380827137}
   - component: {fileID: 6541057121615707768}
+  - component: {fileID: 1374017601976219527}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_8
   m_TagString: Untagged
@@ -701,6 +754,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1374017601976219527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204501927604191059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5246186459287794920
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +780,7 @@ GameObject:
   - component: {fileID: 8318401190485998542}
   - component: {fileID: 5305779275680090504}
   - component: {fileID: 625830303974110638}
+  - component: {fileID: 127857400978448320}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_6
   m_TagString: Untagged
@@ -833,6 +899,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &127857400978448320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246186459287794920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5577619044198528165
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +925,7 @@ GameObject:
   - component: {fileID: 7429099929067342857}
   - component: {fileID: 2770407268777578902}
   - component: {fileID: 2822308430372237246}
+  - component: {fileID: 7770177004053283296}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_1
   m_TagString: Untagged
@@ -965,6 +1044,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7770177004053283296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5577619044198528165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6499051264822976528
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1070,7 @@ GameObject:
   - component: {fileID: 4478871076079314507}
   - component: {fileID: 5262668170436382983}
   - component: {fileID: 3627849234616746464}
+  - component: {fileID: 6043009681703011424}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_2
   m_TagString: Untagged
@@ -1097,6 +1189,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6043009681703011424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499051264822976528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6621154922495705496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1215,7 @@ GameObject:
   - component: {fileID: 1902223987442131336}
   - component: {fileID: 8396069004238314897}
   - component: {fileID: 8907063068654607613}
+  - component: {fileID: 6384580048520392992}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_9
   m_TagString: Untagged
@@ -1229,6 +1334,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &6384580048520392992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621154922495705496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8319579703487451772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1360,7 @@ GameObject:
   - component: {fileID: 2531111139088751434}
   - component: {fileID: 7664365802138127900}
   - component: {fileID: 8181064149324838160}
+  - component: {fileID: 5550598649119666006}
   m_Layer: 8
   m_Name: Corrugated Metal_Part_7
   m_TagString: Untagged
@@ -1361,3 +1479,15 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &5550598649119666006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319579703487451772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
