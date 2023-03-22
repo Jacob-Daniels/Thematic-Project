@@ -13,9 +13,11 @@ public class UIManager : MonoBehaviour
     [Header("Inventory Properties:")]
     [SerializeField] private GameObject inventoryContainerPrefab;
     [SerializeField] private Transform inventoryContainerParent;
+    private Camera cam;
 
     private void Awake()
     {
+        cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         if (instance == null)
         {
             instance = this;
@@ -49,8 +51,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void PlaceItem()
+    public void PlaceItem(GameObject Object)
     {
+        Debug.Log("Placing");
+        if(Physics.Raycast(cam.transform.position,cam.transform.forward, out RaycastHit hit, 9f)){
+            GameObject g = Instantiate(Object);
+            g.GetComponent<Transform>().position = hit.point + new Vector3(0, g.GetComponent<Transform>().localScale.y/2f,0);//instantiate object and set position to hit.point
+            g.GetComponent<Transform>().localScale = new Vector3(1, 1, 1);
+            MonoBehaviour[] mono = g.GetComponents<MonoBehaviour>();
+            foreach(MonoBehaviour Mono in mono)// get all scripts and enable them
+            {
+                Mono.enabled = true;
+            }
+            Collider[] col = g.GetComponents<Collider>();
+            foreach(Collider Col in col)//get all colliders and enable them
+            {
+                Col.enabled = true;
+            }
+
+            g.GetComponent<Transform>().SetParent(null);
+
+        }
         displayInventory.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1f;
