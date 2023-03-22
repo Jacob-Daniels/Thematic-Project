@@ -1,10 +1,10 @@
+using System.Diagnostics;
 using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
     public float damage = 10f, firerate = 15f, range = 10;
     public Camera fpsCam;
-    public GameObject inventoryManager, UIManager;
     bool holding = false;
     private Transform p;
 
@@ -39,20 +39,11 @@ public class Gun : MonoBehaviour
                 transform.parent.GetChild(i).GetComponent<Transform>().SetParent(p);
             }
         }
-        if (Input.GetKey("e"))
-        {
-            if(transform.childCount == 1)
-            {
-                UIManager.GetComponent<UIManager>().PlaceItem(transform.GetChild(0).gameObject);
-                Destroy(transform.GetChild(0).gameObject);
-            }
-        }
     }
 
-    void addtoInventory(GameObject hit)
+    void addtoInventory()
     {
         //add to inventory
-        //inventoryManager.GetComponent<Inventory>().AddItem(hit);
     }
 
     void Break()
@@ -61,7 +52,7 @@ public class Gun : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out RaycastHit hit, range, ~9)) //generate ray
         {
             hit.collider.GetComponent<Break>().BreakObject();
-            addtoInventory(hit.collider.gameObject);
+            addtoInventory();
         }
     }
 }
