@@ -4,20 +4,33 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [Header("Inventory Properties:")]
-    [SerializeField] private List<InventoryItem> inventoryItems = new List<InventoryItem>();
+    public static Inventory instance;
 
+    [Header("Inventory Properties:")]
+    public List<InventoryItem> inventoryItems = new List<InventoryItem>();
 
     #region TEMP CODE
     [SerializeField] private Item testItem;
 
+    private void Awake()
+    {
+        // Singleton
+        if (instance == null)
+        {
+            instance = this;
+        } else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Update()
     {
         // TEMPORARY CODE TO ADD AND REMOVE ITEMS FROM THE INVENTORY (REMOVE ONCE SETUP)
-        if (Input.GetKeyDown(KeyCode.Alpha8))
+        if (Input.GetKeyDown(KeyCode.Alpha9))
         {
             AddItem(testItem);
-        } else if (Input.GetKeyDown(KeyCode.Alpha9))
+        } else if (Input.GetKeyDown(KeyCode.Alpha8))
         {
             RemoveItem(testItem);
         }
@@ -30,11 +43,14 @@ public class Inventory : MonoBehaviour
         InventoryItem listItem = SearchListForItem(_newItem);
         if (listItem != null)
         {
-            listItem.stack++;
+            listItem.UpdateStack(1);
         }
         else
         {
-            inventoryItems.Add(new InventoryItem(_newItem));
+            // Create new item and ui container
+            InventoryItem createdItem = new InventoryItem(_newItem, UIManager.instance.CreateInventoryContainer());
+            createdItem.UpdateContainer();
+            inventoryItems.Add(createdItem);
         }
     }
 
@@ -46,10 +62,12 @@ public class Inventory : MonoBehaviour
         {
             if (listItem.stack > 1)
             {
-                listItem.stack--;
+                listItem.UpdateStack(-1);
             }
             else
             {
+                // Destroy ui container and remove from list
+                Destroy(listItem.uiContainer);
                 inventoryItems.Remove(listItem);
             }
         }
