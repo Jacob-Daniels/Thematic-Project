@@ -9,7 +9,7 @@ public class Break : MonoBehaviour
     public void BreakObject()
     {
         // Instantiate shattered object & delete old object
-        GameObject obj = Instantiate(fractured, transform.position, transform.rotation);
+        GameObject obj = Instantiate(fractured, transform.position, transform.rotation, transform.parent);
         obj.transform.localScale = new Vector3(gameObject.transform.localScale.x, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
         StartCoroutine(DestroyObject());
     }

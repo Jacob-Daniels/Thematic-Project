@@ -7,7 +7,7 @@ TagManager:
   - Ground
   - Environment
   - Movable
-  - Barrel
+  - Destructible
   layers:
   - Default
   - TransparentFX
@@ -17,8 +17,8 @@ TagManager:
   - UI
   - Player
   - canGrapple
-  - Barrel
-  - 
+  - brokenObject
+  - Destructible
   - 
   - 
   - 
