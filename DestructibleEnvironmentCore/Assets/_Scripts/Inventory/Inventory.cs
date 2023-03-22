@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
     public static Inventory instance;
 
     [Header("Inventory Properties:")]
-    public List<InventoryItem> inventoryItems = new List<InventoryItem>();
+    [SerializeField] private List<InventoryItem> inventoryItems = new List<InventoryItem>();
 
     #region TEMP CODE
     [SerializeField] private Item testItem;
