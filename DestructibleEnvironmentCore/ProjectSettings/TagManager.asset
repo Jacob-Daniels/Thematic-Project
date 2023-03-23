@@ -8,6 +8,7 @@ TagManager:
   - Environment
   - Movable
   - Destructible
+  - Grapple
   layers:
   - Default
   - TransparentFX
