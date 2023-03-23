@@ -1,3 +1,4 @@
+using System;
 using System.Diagnostics;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ public class Gun : MonoBehaviour
     public Camera fpsCam;
     bool holding = false;
     private Transform p;
+    private int l;
 
     // Update is called once per frame
     void Update()
@@ -22,8 +24,9 @@ public class Gun : MonoBehaviour
                 if (hit.transform.gameObject.tag == "Movable") //only picks up objects that are movable
                 {
                     holding = true;
-                    hit.collider.enabled = false;
                     p = hit.transform.parent.transform;
+                    l = hit.transform.gameObject.layer;
+                    hit.transform.gameObject.layer = 8; //ignore player collision layer
                     hit.transform.SetParent(transform.parent);
                     hit.transform.GetComponent<Rigidbody>().isKinematic = true;
                 }
@@ -34,8 +37,8 @@ public class Gun : MonoBehaviour
             holding = false;
             for(int i = 1; i < transform.parent.childCount; i++)
             {
+                transform.parent.GetChild(i).gameObject.layer = l;
                 transform.parent.GetChild(i).GetComponent<Rigidbody>().isKinematic = false;
-                transform.parent.GetChild(i).GetComponent<Collider>().enabled = true;
                 transform.parent.GetChild(i).GetComponent<Transform>().SetParent(p);
             }
         }
