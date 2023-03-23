@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Inventory stores all the items the player is holding
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
@@ -29,7 +30,7 @@ public class Inventory : MonoBehaviour
         // TEMPORARY CODE TO ADD AND REMOVE ITEMS FROM THE INVENTORY (REMOVE ONCE SETUP)
         if (Input.GetKeyDown(KeyCode.Alpha9))
         {
-            AddItem(testItem);
+            AddItem(testItem, 1);
         } else if (Input.GetKeyDown(KeyCode.Alpha8))
         {
             RemoveItem(testItem);
@@ -37,18 +38,20 @@ public class Inventory : MonoBehaviour
     }
     #endregion
 
-    public void AddItem(Item _newItem)
+    public void AddItem(Item _newItem, int _value)
     {
+        if (_value < 0) { return; }
         // Add item to inventory 
         InventoryItem listItem = SearchListForItem(_newItem);
         if (listItem != null)
         {
-            listItem.UpdateStack(1);
+            // Add the total value onto the stack
+            listItem.UpdateStack(_value);
         }
         else
         {
             // Create new item and ui container
-            InventoryItem createdItem = new InventoryItem(_newItem, UIManager.instance.CreateInventoryContainer());
+            InventoryItem createdItem = new InventoryItem(_newItem, _value, UIManager.instance.CreateInventoryContainer());
             createdItem.UpdateContainer();
             inventoryItems.Add(createdItem);
         }

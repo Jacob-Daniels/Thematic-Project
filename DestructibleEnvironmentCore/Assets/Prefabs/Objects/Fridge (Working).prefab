@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 3181132630225209166}
   - component: {fileID: 1984535821053937899}
   - component: {fileID: 4354571381038758945}
+  - component: {fileID: -4336489744062443439}
   - component: {fileID: 901247075313781825}
   - component: {fileID: 1409042269796827269}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fridge (Working)
-  m_TagString: Destructible
+  m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2841340258825149940}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.22119848, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,6 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-4336489744062443439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841340258825149940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!114 &901247075313781825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76112c53643491d49b5f914be286da31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fractured: {fileID: 0}
+  fractured: {fileID: 9195661481831357436, guid: f7e02d78a7b92644d828c02316c4aceb, type: 3}
 --- !u!64 &1409042269796827269
 MeshCollider:
   m_ObjectHideFlags: 0

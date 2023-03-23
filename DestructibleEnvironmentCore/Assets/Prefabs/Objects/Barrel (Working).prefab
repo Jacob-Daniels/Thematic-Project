@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 526365608622363236}
   - component: {fileID: 526365608622363235}
   - component: {fileID: 526365608622363234}
+  - component: {fileID: -3996622127173867974}
   - component: {fileID: 9215732472007974930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Barrel (Working)
-  m_TagString: Destructible
+  m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +101,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8108563764783910780, guid: de1a98b18d8b5ca44a34af4d61c81be9, type: 3}
+--- !u!114 &-3996622127173867974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4284730658796891177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 5
+    dropChance: 100
 --- !u!114 &9215732472007974930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,4 +130,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76112c53643491d49b5f914be286da31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fractured: {fileID: 6686827066133863951, guid: 8e089e508a41c804d8c8fd5822deaafc, type: 3}
+  fractured: {fileID: 3828951421166562833, guid: 8e089e508a41c804d8c8fd5822deaafc, type: 3}

@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Called to from the 'Inventory' class to store items with different properties
 [System.Serializable]
 public class InventoryItem
 {
@@ -11,10 +12,10 @@ public class InventoryItem
     public int stack;
     public GameObject uiContainer;
 
-    public InventoryItem(Item item, GameObject container)
+    public InventoryItem(Item item, int stack, GameObject container)
     {
         this.item = item;
-        this.stack = 1;
+        this.stack = stack;
         this.uiContainer = container;
     }
 
