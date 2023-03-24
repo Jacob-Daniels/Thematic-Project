@@ -9,7 +9,6 @@ public class Recipe : ScriptableObject
     public string recipeName;
     public Sprite icon;
     public string summary;
-    public string materialsSummary;
     public int id;
-    public RecipeRequirements[] itemsRequired;
+    public ItemProperties[] itemsRequired;
 }

@@ -9,34 +9,19 @@ public class Inventory : MonoBehaviour
 
     [Header("Inventory Properties:")]
     [SerializeField] private List<InventoryItem> inventoryItems = new List<InventoryItem>();
-
-    #region TEMP CODE
-    [SerializeField] private Item testItem;
-
+    
     private void Awake()
     {
         // Singleton
         if (instance == null)
         {
             instance = this;
-        } else
+        }
+        else
         {
             Destroy(gameObject);
         }
     }
-
-    private void Update()
-    {
-        // TEMPORARY CODE TO ADD AND REMOVE ITEMS FROM THE INVENTORY (REMOVE ONCE SETUP)
-        if (Input.GetKeyDown(KeyCode.Alpha9))
-        {
-            AddItem(testItem, 1);
-        } else if (Input.GetKeyDown(KeyCode.Alpha8))
-        {
-            RemoveItem(testItem);
-        }
-    }
-    #endregion
 
     public void AddItem(Item _newItem, int _value)
     {
@@ -46,7 +31,7 @@ public class Inventory : MonoBehaviour
         if (listItem != null)
         {
             // Add the total value onto the stack
-            listItem.UpdateStack(_value);
+            listItem.AddToStack(_value);
         }
         else
         {
@@ -57,17 +42,18 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void RemoveItem(Item _newItem)
+    public void RemoveItem(Item _newItem, int _value)
     {
         // Remove item from the list
         InventoryItem listItem = SearchListForItem(_newItem);
         if (listItem != null)
         {
-            if (listItem.stack > 1)
+            // Remove from stack if possible (above 0)
+            if (listItem.stack - _value >= 1)
             {
-                listItem.UpdateStack(-1);
+                listItem.RemoveFromStack(_value);
             }
-            else
+            else if (listItem.stack - _value == 0)
             {
                 // Destroy ui container and remove from list
                 Destroy(listItem.uiContainer);
@@ -84,5 +70,14 @@ public class Inventory : MonoBehaviour
             if (inventItem.item == _newItem) { return inventItem; }
         }
         return null;
+    }
+
+    public bool CanRemoveItem(Item _item, int _value)
+    {
+        // Get item from inventory list
+        InventoryItem listItem = SearchListForItem(_item);
+        if (listItem == null) { return false; }
+        // Return true if value can be deducted from inventory items
+        return listItem.stack - _value >= 0 ? true : false;
     }
 }

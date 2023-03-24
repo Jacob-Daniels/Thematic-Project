@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,10 +7,8 @@ using UnityEngine.UI;
 
 // Called to from the 'Inventory' class to store items with different properties
 [System.Serializable]
-public class InventoryItem
+public class InventoryItem : ItemProperties
 {
-    public Item item;
-    public int stack;
     public GameObject uiContainer;
 
     public InventoryItem(Item item, int stack, GameObject container)
@@ -27,9 +26,14 @@ public class InventoryItem
         uiContainer.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = stack.ToString(); // Stack
     }
 
-    public void UpdateStack(int _value)
+    public void AddToStack(int _value)
     {
         stack += _value;
+        UpdateContainer();
+    }
+    public void RemoveFromStack(int _value)
+    {
+        stack -= _value;
         UpdateContainer();
     }
 }

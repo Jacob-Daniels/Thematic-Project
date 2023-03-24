@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
-    [SerializeField] private GameObject displayInventory;
+    [SerializeField] public GameObject displayInventory;
     [SerializeField] private GameObject crosshairObj;
 
     [Header("Inventory Properties:")]

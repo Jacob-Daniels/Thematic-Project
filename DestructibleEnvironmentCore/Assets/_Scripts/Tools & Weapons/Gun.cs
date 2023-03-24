@@ -13,6 +13,9 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Return if UI is open
+        if (UIManager.instance.displayInventory.activeSelf) { return; }
+        
         if(Input.GetButtonDown("Fire1"))//hold left click
         {
             Break();
@@ -32,7 +35,7 @@ public class Gun : MonoBehaviour
                 }
             }
         }
-        else if (Input.GetButtonUp("Fire2") && holding)//release right click
+        else if (Input.GetButtonUp("Fire2") && holding) //release right click
         {
             holding = false;
             for(int i = 1; i < transform.parent.childCount; i++)
