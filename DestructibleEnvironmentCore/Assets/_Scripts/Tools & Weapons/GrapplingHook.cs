@@ -10,6 +10,7 @@ public class GrapplingHook : MonoBehaviour
     [SerializeField] private Transform playerBody;
     [SerializeField] private LayerMask grappleLayer;
     [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private Transform lrStart;
 
     [Header("Hook Properties:")]
     [SerializeField] private float maxGrappleDistance;
@@ -44,7 +45,8 @@ public class GrapplingHook : MonoBehaviour
         // Check if user is grappling
         if (isGrappling)
         {
-            lineRenderer.SetPosition(0, transform.position);
+            // Update lr position
+            lineRenderer.SetPosition(0, lrStart.position);
 
             // Move position of hook towards the raycast point (If within distance)
             if (Vector3.Distance(transform.position, hookPoint) < breakDistance)
@@ -74,9 +76,9 @@ public class GrapplingHook : MonoBehaviour
         isShooting = false;
         // Set parent
         transform.SetParent(handParent);
-        transform.localPosition = new Vector3(-0.6386f, -0.0246f, 0.0151f);
+        transform.localPosition = new Vector3(-0.85f, 0.9f, 0f);
         transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
-        transform.localScale = new Vector3(0.3f, 0.4f, 0.4f);
+        transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
     }
 
     private void ShootHook() 
