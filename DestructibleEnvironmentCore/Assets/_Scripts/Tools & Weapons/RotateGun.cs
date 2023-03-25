@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateGun : MonoBehaviour
 {
-    public GrapplingGun grappling;
+    public OldGrapplingGun grappling;
     // Start is called before the first frame update
     void Start()
     {

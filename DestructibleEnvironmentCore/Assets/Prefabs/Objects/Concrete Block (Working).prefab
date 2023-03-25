@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503664421253100270}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0, y: 0.51, z: 0}
+  m_LocalPosition: {x: -0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76112c53643491d49b5f914be286da31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fractured: {fileID: 3155629485616674993, guid: 2d17f25d4245105459700c75de5dd04d, type: 3}
+  fractured: {fileID: 949917400299556248, guid: d6a4e86d19c33664ba1d14a55d59eb88, type: 3}
 --- !u!64 &-6986681687648999183
 MeshCollider:
   m_ObjectHideFlags: 0

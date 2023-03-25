@@ -18,6 +18,7 @@ public class Break : MonoBehaviour
 
     IEnumerator DestroyObject()
     {
+        // Destroy object after time to push out shattered objects
         yield return new WaitForSeconds(0.05f);
         Destroy(gameObject);
     }

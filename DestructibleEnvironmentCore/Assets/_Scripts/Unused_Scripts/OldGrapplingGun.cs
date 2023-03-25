@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GrapplingGun : MonoBehaviour
+public class OldGrapplingGun : MonoBehaviour
 {
     private LineRenderer lr;
     private Vector3 grapplePoint;
