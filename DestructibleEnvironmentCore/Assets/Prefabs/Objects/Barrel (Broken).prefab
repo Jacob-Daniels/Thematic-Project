@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7390503593164262697}
   - component: {fileID: 930700139730391635}
   - component: {fileID: 8197635000490587661}
-  - component: {fileID: 2902873196648017209}
   - component: {fileID: 3218065314669792753}
   m_Layer: 8
   m_Name: Barrel_Part_6
@@ -117,22 +116,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6783790708342257645, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &2902873196648017209
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343442379795982295}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &3218065314669792753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &701426283067837325
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +142,6 @@ GameObject:
   - component: {fileID: 7490358679578874778}
   - component: {fileID: 86817753079140983}
   - component: {fileID: 3151039975750263815}
-  - component: {fileID: 7214163854303592082}
   - component: {fileID: 3383467267135468583}
   m_Layer: 8
   m_Name: Barrel_Part_8
@@ -263,22 +246,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7062781110442610594, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &7214163854303592082
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701426283067837325}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &3383467267135468583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1820909263387146694
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +272,6 @@ GameObject:
   - component: {fileID: 7067041726029611580}
   - component: {fileID: 3454943547250895527}
   - component: {fileID: 2263806609739367405}
-  - component: {fileID: 4326768352439165721}
   - component: {fileID: 2781607538607746537}
   m_Layer: 8
   m_Name: Barrel_Part_10
@@ -408,22 +375,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2974136055246968739, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &4326768352439165721
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1820909263387146694}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &2781607538607746537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &1851820584449178921
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +401,6 @@ GameObject:
   - component: {fileID: 3505325662872365356}
   - component: {fileID: 1983906868382794076}
   - component: {fileID: 471862513576883584}
-  - component: {fileID: 6935593231510057538}
   - component: {fileID: 1019190790113417640}
   m_Layer: 8
   m_Name: Barrel_Part_9
@@ -553,22 +504,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8655101828777043016, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &6935593231510057538
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851820584449178921}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1019190790113417640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,6 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &2202417469230294007
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +530,6 @@ GameObject:
   - component: {fileID: 4004058091708650251}
   - component: {fileID: 4585516652195959821}
   - component: {fileID: 2325915274942962262}
-  - component: {fileID: 1018461443617378483}
   - component: {fileID: 9145192596950803528}
   m_Layer: 8
   m_Name: Barrel_Part_2
@@ -698,22 +633,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8388681548793391283, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &1018461443617378483
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2202417469230294007}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &9145192596950803528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3142702288089203030
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +659,6 @@ GameObject:
   - component: {fileID: 4986965400695248914}
   - component: {fileID: 3468654603533743627}
   - component: {fileID: 1974946845913852614}
-  - component: {fileID: 6862055341727758458}
   - component: {fileID: 3346315191117899571}
   m_Layer: 8
   m_Name: Barrel_Part_3
@@ -843,22 +762,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -839905020276233756, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &6862055341727758458
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3142702288089203030}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &3346315191117899571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,6 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3828951421166562833
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +829,6 @@ GameObject:
   - component: {fileID: 6943737575260395812}
   - component: {fileID: 5798869026681759902}
   - component: {fileID: 8813644591083997656}
-  - component: {fileID: 733705743528255441}
   - component: {fileID: 1576720684210203217}
   m_Layer: 8
   m_Name: Barrel_Part_7
@@ -1029,22 +932,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7088999850611062249, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &733705743528255441
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4803189911201776138}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1576720684210203217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,6 +944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &6156713879614497018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +958,6 @@ GameObject:
   - component: {fileID: 5108799995238389866}
   - component: {fileID: 6031168322810754460}
   - component: {fileID: 7204976063215145811}
-  - component: {fileID: 1642056099765041433}
   - component: {fileID: 4068085079272091409}
   m_Layer: 8
   m_Name: Barrel_Part_5
@@ -1174,22 +1061,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1688729506512623807, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &1642056099765041433
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6156713879614497018}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &4068085079272091409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,6 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &6893231495000669383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,7 +1087,6 @@ GameObject:
   - component: {fileID: 5808785024746394021}
   - component: {fileID: 8704101850644173666}
   - component: {fileID: 7477399297295530351}
-  - component: {fileID: 3124197687080324725}
   - component: {fileID: 3947123501765237139}
   m_Layer: 8
   m_Name: Barrel_Part_1
@@ -1319,22 +1190,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7610828149892624640, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &3124197687080324725
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6893231495000669383}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &3947123501765237139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1347,6 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &8783407787891874113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1216,6 @@ GameObject:
   - component: {fileID: 1438055818103576504}
   - component: {fileID: 2890957042393572774}
   - component: {fileID: 5730732884181040109}
-  - component: {fileID: 2059681247682921799}
   - component: {fileID: 9030956228894140305}
   m_Layer: 8
   m_Name: Barrel_Part_4
@@ -1464,22 +1319,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6926087225852885912, guid: 5f8fd342c7d8a2a4dad1579c28119a2a, type: 3}
---- !u!111 &2059681247682921799
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8783407787891874113}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &9030956228894140305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,3 +1331,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3464485122056373394}
   - component: {fileID: 3771466644144984022}
   - component: {fileID: 1458411622033387031}
-  - component: {fileID: 3560469165336091759}
   - component: {fileID: 197937182277153898}
   m_Layer: 8
   m_Name: Concrete Block_Part_7
@@ -117,22 +116,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &3560469165336091759
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664311053476312224}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &197937182277153898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &949917400299556248
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +183,6 @@ GameObject:
   - component: {fileID: 6856919114022150664}
   - component: {fileID: 8450893942499755318}
   - component: {fileID: 6853983604358839715}
-  - component: {fileID: 6662599778436427754}
   - component: {fileID: 4976001819697991471}
   m_Layer: 8
   m_Name: Concrete Block_Part_10
@@ -303,22 +286,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &6662599778436427754
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2501767924185901718}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &4976001819697991471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &3878921296680194508
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +312,6 @@ GameObject:
   - component: {fileID: 2796637397566485346}
   - component: {fileID: 4326989065309010710}
   - component: {fileID: 3155750120268800304}
-  - component: {fileID: 7089593544458506593}
   - component: {fileID: 1802723174799899845}
   m_Layer: 8
   m_Name: Concrete Block_Part_3
@@ -448,22 +415,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &7089593544458506593
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3878921296680194508}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1802723174799899845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &5418625706139817583
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,7 +441,6 @@ GameObject:
   - component: {fileID: 6445601632049595330}
   - component: {fileID: 7279567025082856144}
   - component: {fileID: 8783729921619492280}
-  - component: {fileID: 2737727451070693549}
   - component: {fileID: 9032293435317852391}
   m_Layer: 8
   m_Name: Concrete Block_Part_6
@@ -593,22 +544,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &2737727451070693549
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5418625706139817583}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &9032293435317852391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &5731396351613714895
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +570,6 @@ GameObject:
   - component: {fileID: 5669544918152020101}
   - component: {fileID: 3934368607522282836}
   - component: {fileID: 7542482030048022549}
-  - component: {fileID: 2368163167892707998}
   - component: {fileID: 7861213494522701615}
   m_Layer: 8
   m_Name: Concrete Block_Part_4
@@ -738,22 +673,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &2368163167892707998
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5731396351613714895}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &7861213494522701615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,6 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &6103362504897916087
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,7 +699,6 @@ GameObject:
   - component: {fileID: 8691208873696996418}
   - component: {fileID: 2017503113409806088}
   - component: {fileID: 6865059174842182689}
-  - component: {fileID: 2365643104585230453}
   - component: {fileID: 2045795594441462329}
   m_Layer: 8
   m_Name: Concrete Block_Part_9
@@ -883,22 +802,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &2365643104585230453
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6103362504897916087}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &2045795594441462329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,6 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &6534358851798661534
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +828,6 @@ GameObject:
   - component: {fileID: 679627529623194104}
   - component: {fileID: 5441006830788019521}
   - component: {fileID: 6437159146905609766}
-  - component: {fileID: 3649230359215574055}
   - component: {fileID: 4906877817669064196}
   m_Layer: 8
   m_Name: Concrete Block_Part_1
@@ -1028,22 +931,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &3649230359215574055
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6534358851798661534}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &4906877817669064196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1056,6 +943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &6627261233720172278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +957,6 @@ GameObject:
   - component: {fileID: 3881095729492693014}
   - component: {fileID: 1854066930092317513}
   - component: {fileID: 1640188589636466325}
-  - component: {fileID: 4679351021185402619}
   - component: {fileID: 8366262815380835598}
   m_Layer: 8
   m_Name: Concrete Block_Part_2
@@ -1173,22 +1060,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &4679351021185402619
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6627261233720172278}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &8366262815380835598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1201,6 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &7947085035245457083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1086,6 @@ GameObject:
   - component: {fileID: 8044549177385552883}
   - component: {fileID: 5366816140251904112}
   - component: {fileID: 7872154978719640818}
-  - component: {fileID: 17639251340786891}
   - component: {fileID: 4169089185545384150}
   m_Layer: 8
   m_Name: Concrete Block_Part_5
@@ -1318,22 +1189,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &17639251340786891
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7947085035245457083}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &4169089185545384150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,6 +1201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &7952234604331528112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,7 +1215,6 @@ GameObject:
   - component: {fileID: 3571651181150027046}
   - component: {fileID: 4756892367779178495}
   - component: {fileID: 3655651649140566758}
-  - component: {fileID: 9135559057716481385}
   - component: {fileID: 7619703707705668140}
   m_Layer: 8
   m_Name: Concrete Block_Part_8
@@ -1463,22 +1318,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &9135559057716481385
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7952234604331528112}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6f2e19d912354b84394fa8e4a25c0820, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &7619703707705668140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,3 +1330,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa11d4d002aafc4f85ba011a674f0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
