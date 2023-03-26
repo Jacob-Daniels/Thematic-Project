@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6627ed9ff1666ff41b3ed9c7106bb43f, type: 3}
-  m_Name: Grapple
+  m_Name: GrappleGun
   m_EditorClassIdentifier: 
   recipeName: Grappling Hook
   icon: {fileID: 21300000, guid: f95f697d66d238446b1ab717def09945, type: 3}

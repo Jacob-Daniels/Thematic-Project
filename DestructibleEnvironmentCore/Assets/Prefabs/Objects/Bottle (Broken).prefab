@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2842313713134845789}
   - component: {fileID: 4501094315327398175}
   - component: {fileID: 1768955630383229510}
+  - component: {fileID: 2019453462458209107}
   m_Layer: 8
   m_Name: GlassBottle_Part_6
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +130,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &2019453462458209107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75193454129518400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &2119430364348812981
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,9 +157,10 @@ GameObject:
   - component: {fileID: 2223017083847857186}
   - component: {fileID: 2014817410453790881}
   - component: {fileID: 8006042661541885188}
+  - component: {fileID: 1430165309764867925}
   m_Layer: 8
   m_Name: GlassBottle_Part_4
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +273,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1430165309764867925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119430364348812981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &2482374099352929198
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,9 +300,10 @@ GameObject:
   - component: {fileID: 956079021365555747}
   - component: {fileID: 4188390546267654963}
   - component: {fileID: 8808791737305103778}
+  - component: {fileID: 7474017606730866730}
   m_Layer: 8
   m_Name: GlassBottle_Part_7
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,6 +416,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7474017606730866730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2482374099352929198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &3068524058762542396
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,9 +443,10 @@ GameObject:
   - component: {fileID: 2023822737413532197}
   - component: {fileID: 7600356518713381396}
   - component: {fileID: 3163361733255780386}
+  - component: {fileID: 3431920316562691898}
   m_Layer: 8
   m_Name: GlassBottle_Part_10
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,6 +559,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &3431920316562691898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068524058762542396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &3530441813448238450
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,9 +586,10 @@ GameObject:
   - component: {fileID: 273178701680813476}
   - component: {fileID: 1481674637135049764}
   - component: {fileID: 8593217169717382976}
+  - component: {fileID: 1698365067322731061}
   m_Layer: 8
   m_Name: GlassBottle_Part_5
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -645,6 +702,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1698365067322731061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3530441813448238450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &3941061964377189881
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,9 +729,10 @@ GameObject:
   - component: {fileID: 1143166379020533407}
   - component: {fileID: 2953598171418347554}
   - component: {fileID: 3086934635381232422}
+  - component: {fileID: 2527939727133775047}
   m_Layer: 8
   m_Name: GlassBottle_Part_2
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,6 +845,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &2527939727133775047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941061964377189881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &4597396201678994448
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,9 +872,10 @@ GameObject:
   - component: {fileID: 3429452433484783811}
   - component: {fileID: 5769368266163928415}
   - component: {fileID: 9131585414474208326}
+  - component: {fileID: 2759145914964058246}
   m_Layer: 8
   m_Name: GlassBottle_Part_8
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -903,6 +988,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &2759145914964058246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597396201678994448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &6573725807010665114
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,9 +1056,10 @@ GameObject:
   - component: {fileID: 2428897061709945650}
   - component: {fileID: 8922788494338754281}
   - component: {fileID: 2238002062667737429}
+  - component: {fileID: 721791088725558632}
   m_Layer: 8
   m_Name: GlassBottle_Part_1
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,6 +1172,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &721791088725558632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915225631736031183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &7845536718659711093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,9 +1199,10 @@ GameObject:
   - component: {fileID: 3045846166335699649}
   - component: {fileID: 9091589906308491801}
   - component: {fileID: 8827509017684569834}
+  - component: {fileID: 7011411689523965004}
   m_Layer: 8
   m_Name: GlassBottle_Part_3
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1202,6 +1315,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7011411689523965004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7845536718659711093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &8953020905825737250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,9 +1342,10 @@ GameObject:
   - component: {fileID: 9213400844960808865}
   - component: {fileID: 8026317722117490857}
   - component: {fileID: 2524576940894649076}
+  - component: {fileID: 9199327553020201028}
   m_Layer: 8
   m_Name: GlassBottle_Part_9
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,3 +1458,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &9199327553020201028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953020905825737250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6627ed9ff1666ff41b3ed9c7106bb43f, type: 3}
-  m_Name: Vacuum
+  m_Name: VacuumGun
   m_EditorClassIdentifier: 
   recipeName: Vacuum Gun (WIP)
   icon: {fileID: 21300000, guid: f95f697d66d238446b1ab717def09945, type: 3}
@@ -18,6 +18,4 @@ MonoBehaviour:
   id: 2
   itemsRequired:
   - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    stack: 99999
-  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
-    stack: 99999
+    stack: 5

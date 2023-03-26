@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2575689857950493517}
   - component: {fileID: 5417167424942400630}
   - component: {fileID: 6506814991432560021}
+  - component: {fileID: 3617760950497770222}
   m_Layer: 8
   m_Name: Tyre001_Part_4
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +130,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &3617760950497770222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137736112092419995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &826371923915501255
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,9 +157,10 @@ GameObject:
   - component: {fileID: 3212698725161605999}
   - component: {fileID: 8669394959569711733}
   - component: {fileID: 840826881828125577}
+  - component: {fileID: 6948811367925070622}
   m_Layer: 8
   m_Name: Tyre001_Part_10
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +273,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &6948811367925070622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826371923915501255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &1927376296709693300
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,9 +300,10 @@ GameObject:
   - component: {fileID: 5756325378663519475}
   - component: {fileID: 2390767831448876277}
   - component: {fileID: 5949903159942923196}
+  - component: {fileID: 1838225658802615654}
   m_Layer: 8
   m_Name: Tyre001_Part_9
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,6 +416,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1838225658802615654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927376296709693300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &2004943108162086267
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,9 +484,10 @@ GameObject:
   - component: {fileID: 4286633668739505006}
   - component: {fileID: 9092906553032469166}
   - component: {fileID: 5198673775278009207}
+  - component: {fileID: 6772739242611478837}
   m_Layer: 8
   m_Name: Tyre001_Part_8
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -557,6 +600,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &6772739242611478837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457492697477384655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &3249947234279737436
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,9 +627,10 @@ GameObject:
   - component: {fileID: 2733155720624659272}
   - component: {fileID: 4807704292233855625}
   - component: {fileID: 2797963750105616726}
+  - component: {fileID: 4753307283462948900}
   m_Layer: 8
   m_Name: Tyre001_Part_3
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,6 +743,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &4753307283462948900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249947234279737436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &4358915164455327114
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,9 +770,10 @@ GameObject:
   - component: {fileID: 3420775872941979060}
   - component: {fileID: 6131439474185507734}
   - component: {fileID: 1423137125500563756}
+  - component: {fileID: 5198128417325649993}
   m_Layer: 8
   m_Name: Tyre001_Part_5
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -815,6 +886,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &5198128417325649993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4358915164455327114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &4493052552754658486
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,9 +913,10 @@ GameObject:
   - component: {fileID: 1145940432326138305}
   - component: {fileID: 4060846727285589612}
   - component: {fileID: 6167413397524543038}
+  - component: {fileID: 8544930833527412872}
   m_Layer: 8
   m_Name: Tyre001_Part_1
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,6 +1029,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &8544930833527412872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493052552754658486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &4616996458117671113
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,9 +1056,10 @@ GameObject:
   - component: {fileID: 4105174600395424626}
   - component: {fileID: 4747280313938849730}
   - component: {fileID: 503632168613329899}
+  - component: {fileID: 6042805332736607237}
   m_Layer: 8
   m_Name: Tyre001_Part_7
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,6 +1172,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &6042805332736607237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616996458117671113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &7707215411816159871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,9 +1199,10 @@ GameObject:
   - component: {fileID: 8619591803217727266}
   - component: {fileID: 6776177552810025193}
   - component: {fileID: 3906575343862991078}
+  - component: {fileID: 1116545983907563236}
   m_Layer: 8
   m_Name: Tyre001_Part_2
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1202,6 +1315,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1116545983907563236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7707215411816159871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &8993512527904103278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,9 +1342,10 @@ GameObject:
   - component: {fileID: 2054846661786265016}
   - component: {fileID: 7638573521805230791}
   - component: {fileID: 5521382508946756256}
+  - component: {fileID: 2872276063010858051}
   m_Layer: 8
   m_Name: Tyre001_Part_6
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,3 +1458,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &2872276063010858051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993512527904103278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []

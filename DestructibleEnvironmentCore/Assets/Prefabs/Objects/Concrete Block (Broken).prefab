@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3771466644144984022}
   - component: {fileID: 1458411622033387031}
   - component: {fileID: 197937182277153898}
+  - component: {fileID: 9211331866085339763}
   m_Layer: 8
   m_Name: Concrete Block_Part_7
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +130,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &9211331866085339763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664311053476312224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &949917400299556248
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,9 +198,10 @@ GameObject:
   - component: {fileID: 8450893942499755318}
   - component: {fileID: 6853983604358839715}
   - component: {fileID: 4976001819697991471}
+  - component: {fileID: 8668282611502900842}
   m_Layer: 8
   m_Name: Concrete Block_Part_10
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -299,6 +314,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &8668282611502900842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501767924185901718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &3878921296680194508
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,9 +341,10 @@ GameObject:
   - component: {fileID: 4326989065309010710}
   - component: {fileID: 3155750120268800304}
   - component: {fileID: 1802723174799899845}
+  - component: {fileID: 6457150226329094056}
   m_Layer: 8
   m_Name: Concrete Block_Part_3
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,6 +457,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &6457150226329094056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878921296680194508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &5418625706139817583
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,9 +484,10 @@ GameObject:
   - component: {fileID: 7279567025082856144}
   - component: {fileID: 8783729921619492280}
   - component: {fileID: 9032293435317852391}
+  - component: {fileID: 678757889858103539}
   m_Layer: 8
   m_Name: Concrete Block_Part_6
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -557,6 +600,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &678757889858103539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5418625706139817583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &5731396351613714895
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,9 +627,10 @@ GameObject:
   - component: {fileID: 3934368607522282836}
   - component: {fileID: 7542482030048022549}
   - component: {fileID: 7861213494522701615}
+  - component: {fileID: 9104361577795811458}
   m_Layer: 8
   m_Name: Concrete Block_Part_4
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,6 +743,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &9104361577795811458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731396351613714895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &6103362504897916087
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,9 +770,10 @@ GameObject:
   - component: {fileID: 2017503113409806088}
   - component: {fileID: 6865059174842182689}
   - component: {fileID: 2045795594441462329}
+  - component: {fileID: 5546931242578364501}
   m_Layer: 8
   m_Name: Concrete Block_Part_9
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -815,6 +886,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &5546931242578364501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6103362504897916087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &6534358851798661534
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,9 +913,10 @@ GameObject:
   - component: {fileID: 5441006830788019521}
   - component: {fileID: 6437159146905609766}
   - component: {fileID: 4906877817669064196}
+  - component: {fileID: 3201416424413658750}
   m_Layer: 8
   m_Name: Concrete Block_Part_1
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,6 +1029,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &3201416424413658750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534358851798661534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &6627261233720172278
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,9 +1056,10 @@ GameObject:
   - component: {fileID: 1854066930092317513}
   - component: {fileID: 1640188589636466325}
   - component: {fileID: 8366262815380835598}
+  - component: {fileID: 8109412448744387643}
   m_Layer: 8
   m_Name: Concrete Block_Part_2
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1073,6 +1172,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &8109412448744387643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6627261233720172278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &7947085035245457083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,9 +1199,10 @@ GameObject:
   - component: {fileID: 5366816140251904112}
   - component: {fileID: 7872154978719640818}
   - component: {fileID: 4169089185545384150}
+  - component: {fileID: 982456182109205546}
   m_Layer: 8
   m_Name: Concrete Block_Part_5
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1202,6 +1315,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &982456182109205546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947085035245457083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []
 --- !u!1 &7952234604331528112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,9 +1342,10 @@ GameObject:
   - component: {fileID: 4756892367779178495}
   - component: {fileID: 3655651649140566758}
   - component: {fileID: 7619703707705668140}
+  - component: {fileID: 1768906681006535507}
   m_Layer: 8
   m_Name: Concrete Block_Part_8
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,3 +1458,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1768906681006535507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7952234604331528112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops: []

@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6777901997063304496}
   - component: {fileID: 7209332671067345104}
   - component: {fileID: 7105208308353957643}
+  - component: {fileID: 9210956657080596200}
   m_Layer: 8
   m_Name: Fridge_Part_1
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +131,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &9210956657080596200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326173996332975266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &3071677562028256830
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,9 +162,10 @@ GameObject:
   - component: {fileID: 1722381661045687360}
   - component: {fileID: 5770336511257373834}
   - component: {fileID: 5750781112246273416}
+  - component: {fileID: 7838411520545550708}
   m_Layer: 8
   m_Name: Fridge_Part_9
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,6 +279,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7838411520545550708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071677562028256830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &3518633903339998347
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,9 +310,10 @@ GameObject:
   - component: {fileID: 8877864958145281505}
   - component: {fileID: 7233150665910989902}
   - component: {fileID: 5203750321575771762}
+  - component: {fileID: 7219877501137255309}
   m_Layer: 8
   m_Name: Fridge_Part_3
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,6 +427,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7219877501137255309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3518633903339998347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &3849829533678685099
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,9 +458,10 @@ GameObject:
   - component: {fileID: 4655259848246579856}
   - component: {fileID: 1041341357397525881}
   - component: {fileID: 183350317246609921}
+  - component: {fileID: 1617034181473620400}
   m_Layer: 8
   m_Name: Fridge_Part_8
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,6 +574,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1617034181473620400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3849829533678685099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &4020542542329403806
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,9 +605,10 @@ GameObject:
   - component: {fileID: 3258456425460578745}
   - component: {fileID: 2999361113474036879}
   - component: {fileID: 4144710125816885925}
+  - component: {fileID: 2121762958917975524}
   m_Layer: 8
   m_Name: Fridge_Part_10
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,6 +722,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &2121762958917975524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020542542329403806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &4420222781778948563
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,9 +753,10 @@ GameObject:
   - component: {fileID: 5405937572388272592}
   - component: {fileID: 3417885266999065713}
   - component: {fileID: 6732423956537617128}
+  - component: {fileID: 3756570534920210762}
   m_Layer: 8
   m_Name: Fridge_Part_7
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -778,6 +869,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &3756570534920210762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420222781778948563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &5684834516562254301
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,9 +900,10 @@ GameObject:
   - component: {fileID: 4591282002474997652}
   - component: {fileID: 6064464886632907819}
   - component: {fileID: 5962235499596971324}
+  - component: {fileID: 4052226140476216666}
   m_Layer: 8
   m_Name: Fridge_Part_2
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -907,6 +1016,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &4052226140476216666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5684834516562254301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &7231844845280769593
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,9 +1047,10 @@ GameObject:
   - component: {fileID: 9083013737961867806}
   - component: {fileID: 8312103503658665753}
   - component: {fileID: 6435542920595677043}
+  - component: {fileID: 7930114163629959100}
   m_Layer: 8
   m_Name: Fridge_Part_6
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1036,6 +1163,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7930114163629959100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231844845280769593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &7884043931629240618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,9 +1194,10 @@ GameObject:
   - component: {fileID: 8066998997951990003}
   - component: {fileID: 7120843800196954853}
   - component: {fileID: 7721887876666127064}
+  - component: {fileID: 7694442144074688410}
   m_Layer: 8
   m_Name: Fridge_Part_4
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1166,6 +1311,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &7694442144074688410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7884043931629240618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &9026986365822824225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,9 +1342,10 @@ GameObject:
   - component: {fileID: 2967678852049571383}
   - component: {fileID: 3996135981398899609}
   - component: {fileID: 9163278976154638996}
+  - component: {fileID: 240953045924202737}
   m_Layer: 8
   m_Name: Fridge_Part_5
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1296,6 +1459,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &240953045924202737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026986365822824225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrops:
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    minDrop: 1
+    maxDrop: 2
+    dropChance: 100
 --- !u!1 &9195661481831357436
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using UnityEngine;
 
-public class VacuumMesh : MonoBehaviour
+public class VacuumGun : MonoBehaviour
 {
     [SerializeField] private MeshFilter meshFilter;
+
+    [Header("Gun Properties:")]
+    [SerializeField] private float vacuumSpeed = 20.0f;
+    public float GetVacuumSpeed() { return vacuumSpeed; }
 
     [Header("Vacuum Area Properties:")]
     [Range(-1.0f, -20.0f)] [SerializeField] private float distanceFromGun = -5.0f;
@@ -28,17 +31,6 @@ public class VacuumMesh : MonoBehaviour
     {
         // Temp (DELETE AFTER TESTING AS IT DOES NOT NEED TO BE CALLED EVERY FRAME TO UPDATE THE MESH)
         CreateConeMesh();
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Debris"))
-        {
-            // Enable animation and play it before deleting
-            other.GetComponent<Animation>().enabled = true;
-            other.GetComponent<Animation>().Play();
-            other.GetComponent<Destroy>().enabled = true;
-        }
     }
 
     private void CreateConeMesh()
