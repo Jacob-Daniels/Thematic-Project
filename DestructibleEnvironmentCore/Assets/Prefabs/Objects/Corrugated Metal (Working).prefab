@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8711226086459819027}
   - component: {fileID: 6845623927819808985}
   - component: {fileID: 2847787115774701578}
-  - component: {fileID: 4132063392370953547}
   - component: {fileID: -5504212301333353252}
+  - component: {fileID: 5714160953102706669}
   m_Layer: 9
   m_Name: Corrugated Metal (Working)
   m_TagString: Movable
@@ -100,23 +100,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4894167991288728345, guid: 34e0421914d486646ac13e71866c42b6, type: 3}
---- !u!114 &4132063392370953547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4900046967577678092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    minDrop: 2
-    maxDrop: 8
-    dropChance: 100
 --- !u!114 &-5504212301333353252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,3 +113,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fractured: {fileID: 1732085208690659302, guid: 066e4f796fd655b459450901eeba6366, type: 3}
+--- !u!54 &5714160953102706669
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4900046967577678092}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
