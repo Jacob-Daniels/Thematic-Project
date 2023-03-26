@@ -9,12 +9,13 @@ public class Destroy : MonoBehaviour
     {
         if (transform.localScale.x <= 0)
         {
+            // Destroy parent if object is its last child
+            if (transform.parent.childCount == 1)
+            {
+                Destroy(transform.parent.gameObject);
+            }
+            // Destroy object
             Destroy(transform.gameObject);
         }
-    }
-
-    private void OnDestroy()
-    {
-        Destroy(transform.parent.gameObject);
     }
 }
