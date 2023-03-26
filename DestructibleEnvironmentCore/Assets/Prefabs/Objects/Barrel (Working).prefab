@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 526365608622363236}
   - component: {fileID: 526365608622363235}
   - component: {fileID: 526365608622363234}
-  - component: {fileID: -3996622127173867974}
   - component: {fileID: 9215732472007974930}
+  - component: {fileID: -8301750163404122591}
   m_Layer: 9
   m_Name: Barrel (Working)
   m_TagString: Movable
@@ -101,23 +101,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8108563764783910780, guid: de1a98b18d8b5ca44a34af4d61c81be9, type: 3}
---- !u!114 &-3996622127173867974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4284730658796891177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    minDrop: 1
-    maxDrop: 5
-    dropChance: 100
 --- !u!114 &9215732472007974930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,3 +114,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fractured: {fileID: 3828951421166562833, guid: 8e089e508a41c804d8c8fd5822deaafc, type: 3}
+--- !u!54 &-8301750163404122591
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4284730658796891177}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
