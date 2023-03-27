@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Environment
   - Movable
-  - Grapple
   - Vacuum
   - Debris
   layers:
