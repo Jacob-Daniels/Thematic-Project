@@ -76,7 +76,7 @@ public class CraftingManager : MonoBehaviour
             }
 
             // Enable tool after crafting item
-            toolToCraft.SetActive(true);
+            toolToCraft.GetComponentInChildren<GrapplingHook>().isCrafted = true;
             craftedRecipes.Add(currentRecipe);
             currentRecipe = null;
         }
