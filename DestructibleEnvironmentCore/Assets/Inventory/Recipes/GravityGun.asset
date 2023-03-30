@@ -15,7 +15,7 @@ MonoBehaviour:
   recipeName: Gravity Gun
   icon: {fileID: 21300000, guid: f95f697d66d238446b1ab717def09945, type: 3}
   summary: The gravity gun allows you to move objects around
-  id: 0
+  isUpgradable: 0
   itemsRequired:
   - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    stack: 99999
+    stack: 5

@@ -11,7 +11,7 @@ public class GrapplingHook : MonoBehaviour
     [SerializeField] private LayerMask grappleLayer;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Transform lrStart;
-    public bool isCrafted = false;
+    //public bool isCrafted = false;
 
     [Header("Hook Properties:")]
     [SerializeField] private float maxGrappleDistance;

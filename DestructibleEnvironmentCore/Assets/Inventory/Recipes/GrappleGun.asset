@@ -16,7 +16,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: f95f697d66d238446b1ab717def09945, type: 3}
   summary: The grapple hook allows you to pull yourself towards areas around the
     map.
-  id: 1
+  isUpgradable: 0
   itemsRequired:
   - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    stack: 10
+    stack: 5

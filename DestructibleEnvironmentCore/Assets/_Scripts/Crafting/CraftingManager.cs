@@ -12,7 +12,7 @@ public class CraftingManager : MonoBehaviour
     [Header("Crafing Properties:")]
     [SerializeField] private List<Recipe> craftedRecipes = new List<Recipe>();
     [SerializeField] private Recipe currentRecipe;
-    [SerializeField] private GameObject toolToCraft;
+    [SerializeField] private GameObject toolObject;
 
     [Header("UI Container Properties:")]
     public TextMeshProUGUI nameText;
@@ -57,14 +57,14 @@ public class CraftingManager : MonoBehaviour
     public void AssignToolObject(GameObject _tool)
     {
         // Assign object to enable when tool is crafted
-        toolToCraft = _tool;
+        toolObject = _tool;
     }
     #endregion
 
     public void CraftRecipe()
     {
         // Return if recipe is null or already crafted
-        if (toolToCraft == null || currentRecipe == null || craftedRecipes.Contains(currentRecipe)) { return; }
+        if (toolObject == null || currentRecipe == null || craftedRecipes.Contains(currentRecipe)) { return; }
 
         // Check tool can be crafted
         if (CanToolBeCrafted())
@@ -75,8 +75,13 @@ public class CraftingManager : MonoBehaviour
                 Inventory.instance.RemoveItem(_item.item, _item.stack);
             }
 
-            // Enable tool after crafting item
-            toolToCraft.GetComponentInChildren<GrapplingHook>().isCrafted = true;
+            // Add crafted tool to tool manager (so it can be selected)
+            if (!currentRecipe.isUpgradable) {
+                ToolManager.instance.AddTool(currentRecipe.recipeName, toolObject);
+            }
+
+            // Enable new tool & add recipe to crafted list
+            ActivateNewTool();
             craftedRecipes.Add(currentRecipe);
             currentRecipe = null;
         }
@@ -85,6 +90,19 @@ public class CraftingManager : MonoBehaviour
             // Can't craft recipe (not enough materials)
             return;
         }
+    }
+
+    private void ActivateNewTool()
+    {
+        // Disable all objects after enabling the new crafted tool
+        // As if it is an upgrade to a tool that is inactive, it will enable multiple at the same time
+        toolObject.SetActive(true);
+        foreach (GameObject unlockedTool in ToolManager.instance.GetTools().Values)
+        {
+            unlockedTool.SetActive(false);
+        }
+        // Enable current tool again
+        ToolManager.instance.SetCurrent();
     }
 
     private bool CanToolBeCrafted()

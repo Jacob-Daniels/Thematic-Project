@@ -9,6 +9,6 @@ public class Recipe : ScriptableObject
     public string recipeName;
     public Sprite icon;
     public string summary;
-    public int id;
+    public bool isUpgradable;
     public ItemProperties[] itemsRequired;
 }
