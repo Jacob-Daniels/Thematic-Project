@@ -6,50 +6,13 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int health = 10;
-    [SerializeField] private TextMeshProUGUI healthText;
 
     // Getter
     public int GetHealth() { return health; }
-
-    private void Update()
-    {
-        // Increase/decrease health
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            IncreaseHealth();
-        } else if (Input.GetKeyDown(KeyCode.O))
-        {
-            DecreaseHealth();
-        }
-        // Update health text
-        healthText.text = "Health: " + health.ToString();
-
-        // Save and load data
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            SavePlayerHealth();
-        } else if (Input.GetKeyDown(KeyCode.N))
-        {
-            LoadPlayerHealth();
-        }
-    }
-
-    private void IncreaseHealth()
-    {
-        health++;
-    }
-
-    private void DecreaseHealth()
-    {
-        health--;
-    }
-
-    private void SavePlayerHealth()
-    {
-        SaveSystem.SavePlayer(this);
-    }
-
-    private void LoadPlayerHealth()
+    public void IncreaseHealth() { health++; }
+    public void DecreaseHealth() { health--; }
+    public void SavePlayerHealth() { SaveSystem.SavePlayer(this); }
+    public void LoadPlayerHealth()
     {
         // Find save data file
         PlayerData data = SaveSystem.LoadPlayer();

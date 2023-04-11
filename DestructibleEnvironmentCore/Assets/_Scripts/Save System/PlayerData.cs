@@ -9,7 +9,6 @@ public class PlayerData
     // float array used instead of vector3 (cannot serialize a vector)
     public float[] position;
 
-
     // Constructor
     public PlayerData(PlayerHealth playerHealth)
     {

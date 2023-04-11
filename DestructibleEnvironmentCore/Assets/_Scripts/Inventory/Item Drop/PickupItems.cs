@@ -22,6 +22,7 @@ public class PickupItems : MonoBehaviour
                 {
                     // Add item to inventory
                     Inventory.instance.AddItem(_item.item, dropAmount);
+                    UIManager.instance.CreatePickupContainer(_item.item, dropAmount);
                 }
             }
         }
