@@ -35,7 +35,6 @@ public class DestructibleGun : MonoBehaviour
             vacuumMesh.enabled = false;
         }
     }
-
     private void CheckToDestroy()
     {
         // Check the object hit can be destroyed
