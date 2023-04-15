@@ -6,8 +6,9 @@ using UnityEngine;
 public class Break : MonoBehaviour
 {
     public GameObject fractured;
+    
+    // Create delegate to call when spawning objects
     public delegate void OnBroken();
-
     public static OnBroken onBroken;
 
     public void BreakObject()
