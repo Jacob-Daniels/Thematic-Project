@@ -77,7 +77,7 @@ public class GrapplingHook : MonoBehaviour
         isShooting = false;
         // Set parent
         transform.SetParent(handParent);
-        transform.localPosition = new Vector3(-0.85f, 0.9f, 0f);
+        transform.localPosition = new Vector3(0.0f, 0.27f, 0.85f);
         transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
         transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
     }
