@@ -33,12 +33,12 @@ public class GrapplingHook : MonoBehaviour
     void Update()
     {
         // Input to shoot grapple gun
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             ShootHook();
         }
         // Release grapple on mouse release
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButtonUp(0))
         {
             StopGrapple();
         }
