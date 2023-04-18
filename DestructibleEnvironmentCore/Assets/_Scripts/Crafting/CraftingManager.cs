@@ -75,18 +75,27 @@ public class CraftingManager : MonoBehaviour
                 Inventory.instance.RemoveItem(_item.item, _item.stack);
             }
 
-            // Add crafted tool to tool manager (so it can be selected)
-            if (!currentRecipe.isUpgradable) {
+            // Check type of recipe
+            if (currentRecipe.recipeType == "Tool") {
                 ToolManager.instance.AddTool(currentRecipe.recipeName, toolObject);
+                ActivateNewTool();
+                craftedRecipes.Add(currentRecipe);
+            } else if (currentRecipe.recipeType == "Upgradable Tool")
+            {
+                // Enable new tool & add recipe to crafted list
+                ActivateNewTool();
+                craftedRecipes.Add(currentRecipe);
+            } else if (currentRecipe.recipeType == "Item")
+            {
+                // Add item to inventory
+                Inventory.instance.AddItem(currentRecipe.recipeItem.item, currentRecipe.recipeItem.stack);
             }
-
-            // Enable new tool & add recipe to crafted list
-            ActivateNewTool();
-            craftedRecipes.Add(currentRecipe);
+            // Deselect recipe
             currentRecipe = null;
         }
         else
         {
+            Debug.Log("COULDN'T CRAFT RECIPE");
             // Can't craft recipe (not enough materials)
             return;
         }

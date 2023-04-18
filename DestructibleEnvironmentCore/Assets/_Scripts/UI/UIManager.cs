@@ -11,7 +11,9 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] public GameObject displayInventory;
     [SerializeField] private GameObject crosshairObj;
-
+    [SerializeField] private PlayerLook playerLookScript;
+    [SerializeField] private PlayerMovement playerMovement;
+    
     [Header("Inventory Properties:")]
     [SerializeField] private GameObject inventoryContainerPrefab;
     [SerializeField] private Transform inventoryContainerParent;
@@ -43,7 +45,9 @@ public class UIManager : MonoBehaviour
                 displayInventory.SetActive(false);
                 crosshairObj.SetActive(true);
                 Cursor.lockState = CursorLockMode.Locked;
-                Time.timeScale = 1f;
+                // Enable player movement
+                playerLookScript.enabled = true;
+                playerMovement.enabled = true;
             }
             else
             {
@@ -51,10 +55,11 @@ public class UIManager : MonoBehaviour
                 displayInventory.SetActive(true);
                 crosshairObj.SetActive(false);
                 Cursor.lockState = CursorLockMode.None;
-                Time.timeScale = 0f;
+                // Stop player movement
+                playerLookScript.enabled = false;
+                playerMovement.enabled = false;
             }
         }
-        
         CheckPopupCount();
     }
 

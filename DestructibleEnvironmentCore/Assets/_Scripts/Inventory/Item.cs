@@ -7,6 +7,5 @@ public class Item : ScriptableObject
 {
     // Scriptable object to create items
     public string name;
-    public int id;
     public Sprite sprite;
 }
