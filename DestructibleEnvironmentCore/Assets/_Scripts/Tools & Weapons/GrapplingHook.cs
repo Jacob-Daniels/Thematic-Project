@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,22 +7,20 @@ using UnityEngine;
 public class GrapplingHook : MonoBehaviour
 {
     [SerializeField] private PlayerMovement playerMovement;
-    [SerializeField] private Transform handParent;
     [SerializeField] private Transform playerBody;
     [SerializeField] private LayerMask grappleLayer;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Transform lrStart;
-    //public bool isCrafted = false;
-
+    [SerializeField] private Rigidbody playerRB;
+    
     [Header("Hook Properties:")]
     [SerializeField] private float maxGrappleDistance;
-    [SerializeField] private float hookSpeed;
     [SerializeField] private float moveSpeed;
     [SerializeField] private Vector3 offset;
     [SerializeField] private float breakDistance;
     [SerializeField] private bool isShooting, isGrappling;
     private Vector3 hookPoint;
-
+    private float gravity;
 
     void Start()
     {
@@ -46,14 +45,12 @@ public class GrapplingHook : MonoBehaviour
         // Check if user is grappling
         if (isGrappling)
         {
+            // Stop player gravity / y velocity
+            playerRB.velocity = new Vector3(playerRB.velocity.x, 0.0f, playerRB.velocity.z);
+            
             // Update lr position
             lineRenderer.SetPosition(0, lrStart.position);
 
-            // Move position of hook towards the raycast point (If within distance)
-            if (Vector3.Distance(transform.position, hookPoint) < breakDistance)
-            {
-                transform.position = Vector3.Lerp(transform.position, hookPoint, hookSpeed * Time.deltaTime);
-            }
             // Move position of player towards hook (If within distance)
             if (Vector3.Distance(playerBody.position, hookPoint - offset) > breakDistance)
             {
@@ -75,8 +72,7 @@ public class GrapplingHook : MonoBehaviour
         playerMovement.enabled = true;
         isGrappling = false;
         isShooting = false;
-        // Set parent
-        transform.SetParent(handParent);
+        // Set position of gun to players hand
         transform.localPosition = new Vector3(0.0f, 0.27f, 0.85f);
         transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
         transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
@@ -94,7 +90,6 @@ public class GrapplingHook : MonoBehaviour
         {
             hookPoint = hit.point;
             isGrappling = true;
-            transform.parent = null;
             transform.LookAt(hookPoint);
             // Line renderer
             lineRenderer.enabled = true;

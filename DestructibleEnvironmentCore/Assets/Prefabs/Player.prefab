@@ -359,7 +359,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3690708870730563157}
   - {fileID: 3441758087880776760}
   m_Father: {fileID: 7503882491068760919}
   m_RootOrder: 2
@@ -397,9 +396,10 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3690708870730563157}
   - {fileID: 5240482263050726332}
   m_Father: {fileID: 3441758087120305356}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3441758087880776757
 MeshFilter:
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 2700699833395207201}
   - component: {fileID: 932568488543883963}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Gun Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,11 +717,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6754157244445305444}
   m_LocalRotation: {x: -0, y: 0.96956307, z: -0.2448418, w: 0}
-  m_LocalPosition: {x: 0.00000017881393, y: -0.3, z: 0.046}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalPosition: {x: 0, y: -5.7000103, z: -8.040006}
+  m_LocalScale: {x: 500, y: 499.99994, z: 500}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3441758087120305356}
+  m_Father: {fileID: 3441758087880776760}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 28.345, y: 180, z: 0}
 --- !u!33 &2700699833395207201
@@ -1116,7 +1116,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3441758087880776760}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 25.953, y: 72.026, z: -38.518}
 --- !u!33 &3440702451109689930
 MeshFilter:
