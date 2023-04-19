@@ -17,7 +17,7 @@ MonoBehaviour:
   summary: The circuit board can be used to craft other tools and parts.
   itemsRequired:
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
-    stack: 8
+    stack: 5
   - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
     stack: 2
   recipeTypes:

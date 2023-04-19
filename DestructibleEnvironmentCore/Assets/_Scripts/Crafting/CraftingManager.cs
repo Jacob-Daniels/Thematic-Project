@@ -77,13 +77,12 @@ public class CraftingManager : MonoBehaviour
 
             // Check type of recipe
             if (currentRecipe.recipeType == "Tool") {
-                ToolManager.instance.AddTool(currentRecipe.recipeName, toolObject);
-                ActivateNewTool();
+                ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
             } else if (currentRecipe.recipeType == "Upgradable Tool")
             {
                 // Enable new tool & add recipe to crafted list
-                ActivateNewTool();
+                ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
             } else if (currentRecipe.recipeType == "Item")
             {
@@ -100,20 +99,7 @@ public class CraftingManager : MonoBehaviour
             return;
         }
     }
-
-    private void ActivateNewTool()
-    {
-        // Disable all objects after enabling the new crafted tool
-        // As if it is an upgrade to a tool that is inactive, it will enable multiple at the same time
-        toolObject.SetActive(true);
-        foreach (GameObject unlockedTool in ToolManager.instance.GetTools().Values)
-        {
-            unlockedTool.SetActive(false);
-        }
-        // Enable current tool again
-        ToolManager.instance.SetCurrent();
-    }
-
+    
     private bool CanToolBeCrafted()
     {
         // Check each item can be removed from the items list

@@ -1,18 +1,21 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
+using UnityEditor;
 using UnityEngine;
 
 public class ToolManager : MonoBehaviour
 {
     public static ToolManager instance;
 
-    private Dictionary<string, GameObject> tools = new Dictionary<string, GameObject>();
-    private List<string> toolNames = new List<string>();
-    private string current = "Destructible Gun";
-
+    private Dictionary<Recipe, GameObject> tools = new Dictionary<Recipe, GameObject>();
+    [SerializeField] private Recipe current;
+    private int toolIndex = 0;
+    
     // Getter
-    public Dictionary<string, GameObject> GetTools() { return tools; }
+    public Dictionary<Recipe, GameObject> GetTools() { return tools; }
 
     private void Awake()
     {
@@ -26,56 +29,76 @@ public class ToolManager : MonoBehaviour
         }
     }
 
-
     private void Start()
     {
         // Set starting tool / weapon
-        tools.Add("Destructible Gun", GameObject.Find("Player/Main Camera/Hand/DestructibleGun"));
-        toolNames.Add("Destructible Gun");
+        tools.Add(current, GameObject.Find("Player/Main Camera/Hand/DestructibleGun"));
+        Hotbar.instance.UpdateHotbar(toolIndex);
     }
 
     void Update()
     {
-        // TEMPORARY CODE TO SELECT TOOLS (LOOK AT SCROLL WHEEL WITH A VARIABLE FOR THE CURRENT INDEX)
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        // Get scroll input
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0)
         {
-            setActive(toolNames[0]);
-            current = toolNames[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (toolIndex > 0)
+            {
+                toolIndex--;
+            }
+            else
+            {
+                toolIndex = tools.Count - 1;
+            }
+        } else if (Input.GetAxisRaw("Mouse ScrollWheel") < 0)
         {
-            if (1 >= toolNames.Count) { return; }
-            setActive(toolNames[1]);
-            current = toolNames[1];
+            if (toolIndex < tools.Count - 1)
+            {
+                toolIndex++;
+            }
+            else
+            {
+                toolIndex = 0;
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            if (2 >= toolNames.Count) { return; }
-            setActive(toolNames[2]);
-            current = toolNames[2];
-        }
+        // Update selected tool by index value
+        selectTool(tools.ElementAt(toolIndex).Key, toolIndex);
     }
 
-    public void AddTool(string name, GameObject toolObject)
+    public void AddTool(Recipe _recipe, GameObject toolObject)
     {
-        // Add tool to dictionary
-        tools.Add(name, toolObject);
-        toolNames.Add(name);
+        // Add tool to dictionary if it is a new tool and not an upgrade
+        if (_recipe.recipeType != "Upgradable Tool")
+        {
+            tools.Add(_recipe, toolObject);
+            // Disable all tools
+            foreach (GameObject unlockedTool in tools.Values) { unlockedTool.SetActive(false); }
+            // Set tool index to latest tool in dictionary
+            toolIndex = tools.Count - 1;
+        }
+        else
+        {
+            // Upgrade - Keep current tool active
+            toolObject.SetActive(true);
+            // Disable all tools
+            foreach (GameObject unlockedTool in tools.Values) { unlockedTool.SetActive(false); }
+            
+            tools[current].SetActive(true);
+        }
+        // Update hotbar
+        Hotbar.instance.UpdateHotbar(toolIndex);
     }
 
-    void setActive(string s)
+    void selectTool(Recipe _recipe, int _index)
     {
         // Change selected tool
-        if (s != current)
+        if (_recipe.name != current.name)
         {
+            // Disable old tool and enable new one
             tools[current].SetActive(false);
-            tools[s].SetActive(true);
+            tools[_recipe].SetActive(true);
+            current = tools.ElementAt(_index).Key;
+            // Update hotbar
+            Hotbar.instance.UpdateHotbar(toolIndex);
         }
-    }
-
-    public void SetCurrent()
-    {
-        // Enable current tool (called when an item is crafted)
-        tools[current].SetActive(true);
     }
 }
