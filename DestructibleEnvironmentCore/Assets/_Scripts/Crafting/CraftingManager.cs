@@ -38,6 +38,7 @@ public class CraftingManager : MonoBehaviour
         // Assign recipe details (to display them in the ui)
         nameText.text = _recipe.recipeName;
         iconImage.sprite = _recipe.icon;
+        iconImage.color = Color.white;
         summaryText.text = _recipe.summary;
         // Get item details
         string itemDetails = "";

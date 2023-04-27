@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Rubber
   m_EditorClassIdentifier: 
   name: Rubber
-  sprite: {fileID: 21300000, guid: 881798b77426a8f47b533dcc4767e9e5, type: 3}
+  sprite: {fileID: 21300000, guid: 600ffaa821aebea448f583b4133ffb32, type: 3}

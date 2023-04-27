@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Glass
   m_EditorClassIdentifier: 
   name: Glass
-  sprite: {fileID: 21300000, guid: 881798b77426a8f47b533dcc4767e9e5, type: 3}
+  sprite: {fileID: 21300000, guid: 4cfeb58d18a0e9d4d864365ba785193e, type: 3}

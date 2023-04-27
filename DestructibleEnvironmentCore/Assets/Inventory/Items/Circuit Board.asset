@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Circuit Board
   m_EditorClassIdentifier: 
   name: Circuit Board
-  sprite: {fileID: 21300000, guid: 5679a74364f6b4440ab7e7aed55cd95e, type: 3}
+  sprite: {fileID: 21300000, guid: 01c807e0015353749b95ec25a1ba759a, type: 3}

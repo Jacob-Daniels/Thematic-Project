@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wood
   m_EditorClassIdentifier: 
   name: Wood
-  sprite: {fileID: 21300000, guid: 881798b77426a8f47b533dcc4767e9e5, type: 3}
+  sprite: {fileID: 21300000, guid: 64421121fb3685a40a18fd9f080cba3e, type: 3}
