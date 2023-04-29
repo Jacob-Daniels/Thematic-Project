@@ -144,10 +144,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -296,10 +296,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -448,10 +448,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -599,10 +599,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -751,10 +751,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -902,10 +902,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -1053,10 +1053,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -1204,10 +1204,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -1356,10 +1356,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2
@@ -1508,10 +1508,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 2
-    dropChance: 100
+    dropChance: 50
   - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
     minDrop: 1
     maxDrop: 2

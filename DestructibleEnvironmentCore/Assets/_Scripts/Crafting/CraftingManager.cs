@@ -49,7 +49,7 @@ public class CraftingManager : MonoBehaviour
                 itemDetails += _item.stack + " " + _item.item.name;
             } else
             {
-                itemDetails += " and " + _item.stack + " " + _item.item.name;
+                itemDetails += ", " + _item.stack + " " + _item.item.name;
             }
         }
         materialsText.text = itemDetails;
@@ -80,18 +80,21 @@ public class CraftingManager : MonoBehaviour
             if (currentRecipe.recipeType == "Tool") {
                 ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
+                // Deselect recipe when item is crafted
+                //currentRecipe = null;
             } else if (currentRecipe.recipeType == "Upgradable Tool")
             {
                 // Enable new tool & add recipe to crafted list
                 ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
+                // Deselect recipe when item is crafted
+                //currentRecipe = null;
             } else if (currentRecipe.recipeType == "Item")
             {
                 // Add item to inventory
                 Inventory.instance.AddItem(currentRecipe.recipeItem.item, currentRecipe.recipeItem.stack);
+                UIManager.instance.CreatePickupContainer(currentRecipe.recipeItem.item, currentRecipe.recipeItem.stack);
             }
-            // Deselect recipe
-            currentRecipe = null;
         }
         else
         {

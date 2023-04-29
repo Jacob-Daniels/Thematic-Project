@@ -16,10 +16,14 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: f95f697d66d238446b1ab717def09945, type: 3}
   summary: The vacuum gun can suck up items in front of you.
   itemsRequired:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    stack: 5
   - item: {fileID: 11400000, guid: fbffa10286d21b6498f791d13475ef70, type: 2}
-    stack: 2
+    stack: 12
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    stack: 20
+  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+    stack: 20
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    stack: 50
   recipeTypes:
   - Tool
   - Upgradable Tool

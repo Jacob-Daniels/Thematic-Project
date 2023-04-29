@@ -142,7 +142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &2119430364348812981
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +289,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &2482374099352929198
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +436,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &3068524058762542396
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +583,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &3530441813448238450
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +730,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &3941061964377189881
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +877,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &4597396201678994448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +1024,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &6573725807010665114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &7845536718659711093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1359,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50
 --- !u!1 &8953020905825737250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,4 +1506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829fa30df17930843bfa090fa44c7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDrops: []
+  itemDrops:
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 50

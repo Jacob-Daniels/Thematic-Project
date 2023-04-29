@@ -143,10 +143,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &701426283067837325
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,10 +311,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &1820909263387146694
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,10 +478,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &1851820584449178921
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,10 +645,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &2202417469230294007
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,10 +812,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &3142702288089203030
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,10 +979,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &3828951421166562833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,10 +1187,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &6156713879614497018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,10 +1354,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &6893231495000669383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,10 +1521,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
 --- !u!1 &8783407787891874113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,7 +1688,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDrops:
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
+  - item: {fileID: 11400000, guid: 12a9b529fabf7bf4dbc0c65f615c3187, type: 2}
     minDrop: 1
     maxDrop: 1
-    dropChance: 100
+    dropChance: 80
+  - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 10
+  - item: {fileID: 11400000, guid: f5f8943f1bd892a4a8bb4935145e8fba, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 5
+  - item: {fileID: 11400000, guid: cbc4e711fa25e514a83ca6405eea5905, type: 2}
+    minDrop: 1
+    maxDrop: 1
+    dropChance: 20
