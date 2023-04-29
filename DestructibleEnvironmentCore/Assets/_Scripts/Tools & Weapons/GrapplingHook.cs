@@ -56,7 +56,8 @@ public class GrapplingHook : MonoBehaviour
             {
                 // Update player position
                 playerMovement.enabled = false;
-                playerBody.position = Vector3.Lerp(playerBody.position, hookPoint - offset, moveSpeed * Time.deltaTime);
+                //playerBody.position = Vector3.Lerp(playerBody.position, hookPoint - offset, moveSpeed * Time.deltaTime);
+                playerRB.MovePosition(Vector3.MoveTowards(playerBody.position, hookPoint - offset, moveSpeed));
             } else
             {
                 // Player reached hook
