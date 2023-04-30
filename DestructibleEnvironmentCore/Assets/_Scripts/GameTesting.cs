@@ -40,6 +40,7 @@ public class GameTesting : MonoBehaviour
         {
             testUIObject.SetActive(true);
             
+            /*
             // Save System
             if (Input.GetKeyDown(KeyCode.M))
             {
@@ -57,7 +58,9 @@ public class GameTesting : MonoBehaviour
             {
                 playerHealth.DecreaseHealth();
             }
+            
             healthText.text = "Health: " + playerHealth.GetHealth().ToString();
+            */
         }
         else
         {

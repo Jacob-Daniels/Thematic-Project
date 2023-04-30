@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public void IncreaseHealth() { health++; }
     public void DecreaseHealth() { health--; }
     public void SavePlayerHealth() { SaveSystem.SavePlayer(this); }
+    
     public void LoadPlayerHealth()
     {
         // Find save data file

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -39,12 +40,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         // Get local movement
         Vector3 localMove = transform.right * Input.GetAxis("Horizontal") + transform.forward * Input.GetAxis("Vertical");
 
         // Move player & reset angular velocity
         rb.angularVelocity = new Vector3(0, 0, 0);
         rb.MovePosition(transform.position + localMove * speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check the player has collided with the level complete object
+        if (other.CompareTag("LevelComplete"))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            GameManager.instance.LevelComplete();
+        }
     }
 }
