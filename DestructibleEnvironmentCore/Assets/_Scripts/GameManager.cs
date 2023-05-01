@@ -26,4 +26,10 @@ public class GameManager : MonoBehaviour
         // Load the following scene (As current scene/level is complete)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void QuitGame()
+    {
+        // Quit game
+        Application.Quit();
+    }
 }

@@ -9,6 +9,11 @@ public class PlayerLook : MonoBehaviour
     [SerializeField] private float verticalClamp = 80f;
     float xRotation = 0f;
 
+    // Setter
+    public void SetSensitivity(float value) { sensitivity = value; }
+    // Getter
+    public float GetSensitivity() { return sensitivity; }
+    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;

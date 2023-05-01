@@ -18,10 +18,12 @@ public class GrapplingHook : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private Vector3 offset;
     [SerializeField] private float breakDistance;
+    [SerializeField] private float bounceDistance;
     [SerializeField] private bool isShooting, isGrappling;
     private Vector3 hookPoint;
     private float gravity;
-
+    private bool canPull = true;
+    
     void Start()
     {
         // Initialise variables upon start up
@@ -40,28 +42,38 @@ public class GrapplingHook : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             StopGrapple();
+            canPull = true;
         }
 
         // Check if user is grappling
         if (isGrappling)
         {
             // Stop player gravity / y velocity
-            playerRB.velocity = new Vector3(playerRB.velocity.x, 0.0f, playerRB.velocity.z);
+            //playerRB.velocity = new Vector3(playerRB.velocity.x, 0.0f, playerRB.velocity.z);
             
             // Update lr position
             lineRenderer.SetPosition(0, lrStart.position);
 
             // Move position of player towards hook (If within distance)
-            if (Vector3.Distance(playerBody.position, hookPoint - offset) > breakDistance)
+            if (Vector3.Distance(playerBody.position, hookPoint - offset) > breakDistance && canPull)
             {
-                // Update player position
-                playerMovement.enabled = false;
+                //playerMovement.enabled = false;
                 //playerBody.position = Vector3.Lerp(playerBody.position, hookPoint - offset, moveSpeed * Time.deltaTime);
+                // Stop player gravity / y velocity
+                playerRB.velocity = new Vector3(playerRB.velocity.x, 0.0f, playerRB.velocity.z);
+                
+                // Update player position
                 playerRB.MovePosition(Vector3.MoveTowards(playerBody.position, hookPoint - offset, moveSpeed));
-            } else
+            } else if (Vector3.Distance(playerBody.position, hookPoint - offset) > bounceDistance && !canPull)
+            {
+                // Bounce player back up to target whilst grappling
+                canPull = true;
+            } 
+            else
             {
                 // Player reached hook
-                StopGrapple();
+                canPull = false;
+                //StopGrapple();
             }
         }
     }
@@ -70,7 +82,7 @@ public class GrapplingHook : MonoBehaviour
     {
         // Reset properties of hook
         lineRenderer.enabled = false;
-        playerMovement.enabled = true;
+        //playerMovement.enabled = true;
         isGrappling = false;
         isShooting = false;
         // Set position of gun to players hand

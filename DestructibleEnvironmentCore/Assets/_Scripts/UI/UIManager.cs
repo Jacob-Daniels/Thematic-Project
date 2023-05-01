@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private int maxPopups = 5;
     [SerializeField] private GameObject pickupContainerPrefab;
     [SerializeField] private GameObject pickupContainerParent;
-
+    
     private void Awake()
     {
         if (instance == null)
