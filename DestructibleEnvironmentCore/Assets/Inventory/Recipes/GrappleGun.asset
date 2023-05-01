@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GrappleGun
   m_EditorClassIdentifier: 
   recipeName: Grappling Hook
-  icon: {fileID: 21300000, guid: 97b452d68f92cc647b616479f700d24c, type: 3}
+  icon: {fileID: 21300000, guid: 791f415cc992ddb4c8c8393e4d543b62, type: 3}
   summary: The grapple hook allows you to pull yourself towards areas around the
     map.
   itemsRequired:
