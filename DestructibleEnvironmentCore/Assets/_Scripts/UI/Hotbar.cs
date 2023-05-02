@@ -27,26 +27,27 @@ public class Hotbar : MonoBehaviour
     {
         // Disable all hotbar slots
         foreach (GameObject slot in hotbarSlots) { slot.SetActive(false); }
-
+        
         // Set selected tool
         hotbarSlots[0].SetActive(true);
         hotbarSlots[0].transform.GetChild(0).GetComponent<Image>().sprite =
-            ToolManager.instance.GetTools().ElementAt(_toolIndex).Key.icon;
-        
+            ToolManager.instance.GetToolSprites().ElementAt(_toolIndex);
+
         // Loop the rest of the tools
         int i = 1, j = _toolIndex + 1;
         while (i < hotbarSlots.Length)
         {
-            if (j >= ToolManager.instance.GetTools().Count)
+            if (j >= ToolManager.instance.GetToolSprites().Count)
             {
                 j = 0;
             }
             if (j == _toolIndex) { break; }
-
+            
             // Set hotbar properties
             hotbarSlots[i].SetActive(true);
             hotbarSlots[i].transform.GetChild(0).GetComponent<Image>().sprite =
-                ToolManager.instance.GetTools().ElementAt(j).Key.icon;
+                ToolManager.instance.GetToolSprites().ElementAt(j);
+            
             i++;
             j++;
         }

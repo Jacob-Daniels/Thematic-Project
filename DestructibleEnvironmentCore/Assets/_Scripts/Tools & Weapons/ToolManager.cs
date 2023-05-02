@@ -11,11 +11,14 @@ public class ToolManager : MonoBehaviour
     public static ToolManager instance;
 
     private Dictionary<Recipe, GameObject> tools = new Dictionary<Recipe, GameObject>();
+    [SerializeField] private List<Sprite> toolSprites;
+    
     [SerializeField] private Recipe current;
     private int toolIndex = 0;
     
     // Getter
     public Dictionary<Recipe, GameObject> GetTools() { return tools; }
+    public List<Sprite> GetToolSprites() { return toolSprites; }
 
     private void Awake()
     {
@@ -33,6 +36,7 @@ public class ToolManager : MonoBehaviour
     {
         // Set starting tool / weapon
         tools.Add(current, GameObject.Find("Player/Main Camera/Hand/DestructibleGun"));
+        toolSprites.Add(current.icon);
         Hotbar.instance.UpdateHotbar(toolIndex);
     }
 
@@ -70,6 +74,7 @@ public class ToolManager : MonoBehaviour
         if (_recipe.recipeType != "Upgradable Tool")
         {
             tools.Add(_recipe, toolObject);
+            toolSprites.Add(_recipe.icon);
             // Disable all tools
             foreach (GameObject unlockedTool in tools.Values) { unlockedTool.SetActive(false); }
             // Set tool index to latest tool in dictionary
@@ -79,10 +84,19 @@ public class ToolManager : MonoBehaviour
         {
             // Upgrade - Keep current tool active
             toolObject.SetActive(true);
+            
             // Disable all tools
             foreach (GameObject unlockedTool in tools.Values) { unlockedTool.SetActive(false); }
             
             tools[current].SetActive(true);
+            // Reassign sprite to display the new upgradable sprite
+            for (int i = 0; i < toolSprites.Count; i++)
+            {
+                if (toolSprites[i] == _recipe.recipeToUpgrade.icon)
+                {
+                    toolSprites[i] = _recipe.icon;
+                }
+            }
         }
         // Update hotbar
         Hotbar.instance.UpdateHotbar(toolIndex);

@@ -19,4 +19,5 @@ public class Recipe : ScriptableObject
     
     // Variables that appear depending on recipe type
     public ItemProperties recipeItem;
+    public Recipe recipeToUpgrade;
 }

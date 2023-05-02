@@ -65,7 +65,7 @@ public class CraftingManager : MonoBehaviour
     public void CraftRecipe()
     {
         // Return if recipe is null or already crafted
-        if (toolObject == null || currentRecipe == null || craftedRecipes.Contains(currentRecipe)) { return; }
+        if (currentRecipe == null || craftedRecipes.Contains(currentRecipe)) { return; }
 
         // Check tool can be crafted
         if (CanToolBeCrafted())
@@ -78,15 +78,21 @@ public class CraftingManager : MonoBehaviour
 
             // Check type of recipe
             if (currentRecipe.recipeType == "Tool") {
+                if (toolObject == null) { return; }
                 ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
                 // Deselect recipe when item is crafted
                 //currentRecipe = null;
             } else if (currentRecipe.recipeType == "Upgradable Tool")
             {
+                if (toolObject == null) { return; }
                 // Enable new tool & add recipe to crafted list
                 ToolManager.instance.AddTool(currentRecipe, toolObject);
                 craftedRecipes.Add(currentRecipe);
+                
+                // Update sprite to upgraded version
+                //currentRecipe.recipeToUpgrade.icon = currentRecipe.icon;
+                
                 // Deselect recipe when item is crafted
                 //currentRecipe = null;
             } else if (currentRecipe.recipeType == "Item")

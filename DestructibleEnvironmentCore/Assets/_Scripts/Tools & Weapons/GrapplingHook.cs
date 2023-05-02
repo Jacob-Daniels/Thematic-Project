@@ -22,7 +22,7 @@ public class GrapplingHook : MonoBehaviour
     [SerializeField] private bool isShooting, isGrappling;
     private Vector3 hookPoint;
     private float gravity;
-    private bool canPull = true;
+    [SerializeField] private bool canPull = true;
     
     void Start()
     {
@@ -57,7 +57,7 @@ public class GrapplingHook : MonoBehaviour
             // Move position of player towards hook (If within distance)
             if (Vector3.Distance(playerBody.position, hookPoint - offset) > breakDistance && canPull)
             {
-                //playerMovement.enabled = false;
+                playerMovement.enabled = false;
                 //playerBody.position = Vector3.Lerp(playerBody.position, hookPoint - offset, moveSpeed * Time.deltaTime);
                 // Stop player gravity / y velocity
                 playerRB.velocity = new Vector3(playerRB.velocity.x, 0.0f, playerRB.velocity.z);
@@ -72,6 +72,7 @@ public class GrapplingHook : MonoBehaviour
             else
             {
                 // Player reached hook
+                playerMovement.enabled = true;
                 canPull = false;
                 //StopGrapple();
             }
@@ -82,7 +83,7 @@ public class GrapplingHook : MonoBehaviour
     {
         // Reset properties of hook
         lineRenderer.enabled = false;
-        //playerMovement.enabled = true;
+        playerMovement.enabled = true;
         isGrappling = false;
         isShooting = false;
         // Set position of gun to players hand

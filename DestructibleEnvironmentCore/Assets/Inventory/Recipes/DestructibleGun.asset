@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DestructibleGun
   m_EditorClassIdentifier: 
   recipeName: Destructible Gun
-  icon: {fileID: 21300000, guid: bdbeb3313355ba342841d464f792bf20, type: 3}
+  icon: {fileID: 21300000, guid: af2e9a360da442b4087c98fb7619f96f, type: 3}
   summary: Destroy items (Default Gun)
   itemsRequired: []
   recipeTypes:
@@ -25,3 +25,4 @@ MonoBehaviour:
   recipeItem:
     item: {fileID: 0}
     stack: 0
+  recipeToUpgrade: {fileID: 0}

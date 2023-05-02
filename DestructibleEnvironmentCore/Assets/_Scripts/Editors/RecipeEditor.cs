@@ -13,7 +13,8 @@ public class RecipeEditor : Editor
     private SerializedProperty summary;
     private SerializedProperty itemsRequired;
     private SerializedProperty recipeItem;
-
+    private SerializedProperty recipeToUpgrade;
+    
     // Drop down properties
     private bool isItemDropdown = false;
     
@@ -24,6 +25,7 @@ public class RecipeEditor : Editor
         summary = serializedObject.FindProperty("summary");
         itemsRequired = serializedObject.FindProperty("itemsRequired");
         recipeItem = serializedObject.FindProperty("recipeItem");
+        recipeToUpgrade = serializedObject.FindProperty("recipeToUpgrade");
     }
 
     public override void OnInspectorGUI()
@@ -49,6 +51,10 @@ public class RecipeEditor : Editor
         {
             // Item is selected
             EditorGUILayout.PropertyField(recipeItem, new GUIContent("Item to craft:"));
+        } else if (recipeScript.recipeType == "Upgradable Tool")
+        {
+            // Display recipe variable (for upgrading)
+            EditorGUILayout.PropertyField(recipeToUpgrade, new GUIContent("Recipe to upgrade:"));
         }
         
         // Display items required for recipe
