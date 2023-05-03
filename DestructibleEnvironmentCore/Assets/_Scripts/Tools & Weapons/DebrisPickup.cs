@@ -10,13 +10,17 @@ public class DebrisPickup : MonoBehaviour
 
     private float vacuumSpeed;
     private bool isVacuum;
+    
+    // Create delegate to call when spawning objects
+    public delegate void OnBroken();
+    public static OnBroken onBroken;
 
     void Start()
     {
         player = GameObject.Find("Player");
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Is being vacuumed
         if (isVacuum)
@@ -31,6 +35,16 @@ public class DebrisPickup : MonoBehaviour
         {
             PickupObject();
         }
+        
+        if (transform.position.y < -1) // destroys objects that fall from the world
+        {
+            if (transform.parent.childCount <= 1)
+            {
+                Destroy(transform.parent.gameObject);
+            }
+            onBroken?.Invoke();
+            Destroy(gameObject);
+        }
     }
     
     private void PickupObject()
@@ -41,6 +55,7 @@ public class DebrisPickup : MonoBehaviour
         if (transform.parent.childCount <= 1)
         {
             Destroy(transform.parent.gameObject);
+            onBroken?.Invoke();
         }
         // Destroy object
         Destroy(transform.gameObject);

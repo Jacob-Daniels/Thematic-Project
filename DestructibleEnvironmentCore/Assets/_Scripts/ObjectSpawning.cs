@@ -21,8 +21,8 @@ public class ObjectSpawning : MonoBehaviour
             ObjectCount++;
         }
         // Add method to delegate from Break script 
+        DebrisPickup.onBroken += Broken;
         Break.onBroken += Broken;
-        //Break.onBroken += Spawn;
     }
     
     void FixedUpdate()
