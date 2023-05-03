@@ -101,6 +101,10 @@ public class CraftingManager : MonoBehaviour
                 Inventory.instance.AddItem(currentRecipe.recipeItem.item, currentRecipe.recipeItem.stack);
                 UIManager.instance.CreatePickupContainer(currentRecipe.recipeItem.item, currentRecipe.recipeItem.stack);
             }
+            else if (currentRecipe.recipeType == "JumpBoost")
+            {
+                PlayerMovement.jumpDistance = 20f;
+            }
         }
         else
         {

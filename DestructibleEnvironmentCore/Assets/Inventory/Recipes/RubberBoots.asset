@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: RubberBoots
   m_EditorClassIdentifier: 
   recipeName: Rubber Boots
-  icon: {fileID: 21300000, guid: 2d7befd63d8d22a41b757775641004ac, type: 3}
+  icon: {fileID: 0}
   summary: Rubber boots make you more bouncy so you can reach higher places
   itemsRequired:
   - item: {fileID: 11400000, guid: d3818b366e013f844b6ba65c641e2eed, type: 2}
     stack: 30
-  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
-    stack: 10
   - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
+    stack: 10
+  - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
     stack: 10
   recipeTypes:
   - Tool
   - Upgradable Tool
   - Item
-  recipeTypeIndex: 1
-  recipeType: Upgradable Tool
+  - JumpBoost
+  recipeTypeIndex: 3
+  recipeType: JumpBoost
   recipeItem:
     item: {fileID: 0}
     stack: 0
-  recipeToUpgrade: {fileID: 11400000, guid: 941123510ed1ad445aa97277df7be974, type: 2}
+  recipeToUpgrade: {fileID: 0}

@@ -8,9 +8,9 @@ public class ObjectSpawning : MonoBehaviour
 {
     [SerializeField] GameObject[] Spawners;
     [SerializeField] GameObject[] Objects;
-    private static int ObjectCount;
-    private int rs, ro;
-    private const int maxObjects = 15;
+    [SerializeField] int ObjectCount;
+    [SerializeField] int rs, ro;
+    [SerializeField] const int maxObjects = 15;
     
     void Start()
     {

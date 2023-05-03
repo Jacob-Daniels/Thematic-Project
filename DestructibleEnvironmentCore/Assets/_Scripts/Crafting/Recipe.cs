@@ -13,7 +13,7 @@ public class Recipe : ScriptableObject
     public ItemProperties[] itemsRequired;
 
     // Recipe type properties
-    [HideInInspector] public string[] recipeTypes = { "Tool", "Upgradable Tool", "Item" };
+    [HideInInspector] public string[] recipeTypes = { "Tool", "Upgradable Tool", "Item", "JumpBoost" };
     [HideInInspector] public int recipeTypeIndex;
     [HideInInspector] public string recipeType;
     
