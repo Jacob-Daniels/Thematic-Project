@@ -12,9 +12,7 @@ public class DebrisPickup : MonoBehaviour
     private bool isVacuum;
     
     // Create delegate to call when spawning objects
-    public delegate void OnBroken();
-    public static OnBroken onBroken;
-
+    public static Action<Transform> OnBroken = delegate {};
     void Start()
     {
         player = GameObject.Find("Player");
@@ -40,9 +38,9 @@ public class DebrisPickup : MonoBehaviour
         {
             if (transform.parent.childCount <= 1)
             {
+                OnBroken?.Invoke(this.transform.parent.transform.parent.transform.parent);
                 Destroy(transform.parent.gameObject);
             }
-            onBroken?.Invoke();
             Destroy(gameObject);
         }
     }
@@ -51,12 +49,6 @@ public class DebrisPickup : MonoBehaviour
     {
         // Add items to inventory
         gameObject.GetComponent<PickupItems>().CalculateItemsDropped();
-        // Destroy parent if object is its last child
-        if (transform.parent.childCount <= 1)
-        {
-            Destroy(transform.parent.gameObject);
-            onBroken?.Invoke();
-        }
         // Destroy object
         Destroy(transform.gameObject);
     }

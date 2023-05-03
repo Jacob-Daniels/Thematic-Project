@@ -8,21 +8,22 @@ public class ObjectSpawning : MonoBehaviour
 {
     public GameObject[] Spawners;
     public GameObject[] Objects;
-    public static int ObjectCount;
+    private static int ObjectCount;
     private int rs, ro;
     private const int maxObjects = 15;
     
     void Start()
     {
         // Spawn all objects
-        for (int count = 0; count <= maxObjects; count++)
+        while(ObjectCount < maxObjects)
         {
             Spawn();
             ObjectCount++;
         }
         // Add method to delegate from Break script 
-        DebrisPickup.onBroken += Broken;
-        Break.onBroken += Broken;
+        DebrisPickup.OnBroken += Broken;
+        Break.OnBroken += Broken;
+        Despawner.OnBroken += Broken;
     }
     
     void FixedUpdate()
@@ -31,7 +32,7 @@ public class ObjectSpawning : MonoBehaviour
         // Spawn objects when total is less than 10
         if (ObjectCount < 10)
         {
-            for (int count = 0; count <= maxObjects; count++) {
+            while(ObjectCount < maxObjects) {
                 Spawn();
                 ObjectCount++;
             }
@@ -48,9 +49,12 @@ public class ObjectSpawning : MonoBehaviour
         Instantiate(Objects[ro], Spawners[rs].transform).transform.rotation = Random.rotation;
     }
 
-    void Broken()
+    void Broken(Transform ParentObj)
     {
-        Debug.Log(ObjectCount);
-        ObjectCount--;
+        if (ParentObj == this.transform)
+        {
+            Debug.Log(ObjectCount +" : " + ParentObj.name);
+            ObjectCount--;
+        }
     }
 }

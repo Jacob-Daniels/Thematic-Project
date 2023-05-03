@@ -8,8 +8,7 @@ public class Break : MonoBehaviour
     public GameObject fractured;
     
     // Create delegate to call when spawning objects
-    public delegate void OnBroken();
-    public static OnBroken onBroken;
+    public static Action<Transform> OnBroken = delegate {};
 
     public void BreakObject()
     {
@@ -30,7 +29,7 @@ public class Break : MonoBehaviour
     {
         if (transform.position.y < -1) // destroys objects that fall from the world
         {
-            onBroken?.Invoke();
+            OnBroken?.Invoke(this.transform.parent.transform.parent);
             Destroy(gameObject);
         }
     }
