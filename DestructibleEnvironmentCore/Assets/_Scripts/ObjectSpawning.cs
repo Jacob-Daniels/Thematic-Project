@@ -6,8 +6,8 @@ using Random = UnityEngine.Random;
 
 public class ObjectSpawning : MonoBehaviour
 {
-    public GameObject[] Spawners;
-    public GameObject[] Objects;
+    [SerializeField] GameObject[] Spawners;
+    [SerializeField] GameObject[] Objects;
     private static int ObjectCount;
     private int rs, ro;
     private const int maxObjects = 15;
