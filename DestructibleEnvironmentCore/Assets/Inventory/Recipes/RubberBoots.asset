@@ -10,28 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6627ed9ff1666ff41b3ed9c7106bb43f, type: 3}
-  m_Name: GrappleGun
+  m_Name: RubberBoots
   m_EditorClassIdentifier: 
-  recipeName: Grappling Hook
-  icon: {fileID: 21300000, guid: 791f415cc992ddb4c8c8393e4d543b62, type: 3}
-  summary: The grapple hook allows you to pull yourself towards areas around the
-    map.
+  recipeName: Rubber Boots
+  icon: {fileID: 21300000, guid: 2d7befd63d8d22a41b757775641004ac, type: 3}
+  summary: Rubber boots make you more bouncy so you can reach higher places
   itemsRequired:
-  - item: {fileID: 11400000, guid: 73277876574064847a458a4e42334ec0, type: 2}
-    stack: 8
-  - item: {fileID: 11400000, guid: 7bc4507c5ecb350409c8c078b0e4cdf0, type: 2}
-    stack: 15
+  - item: {fileID: 11400000, guid: d3818b366e013f844b6ba65c641e2eed, type: 2}
+    stack: 30
   - item: {fileID: 11400000, guid: 54b27c16415395f4b84536bb5fc92006, type: 2}
-    stack: 15
+    stack: 10
   - item: {fileID: 11400000, guid: 99c702de8484ac94594959c74758737a, type: 2}
-    stack: 20
+    stack: 10
   recipeTypes:
   - Tool
   - Upgradable Tool
   - Item
-  recipeTypeIndex: 0
-  recipeType: Tool
+  recipeTypeIndex: 1
+  recipeType: Upgradable Tool
   recipeItem:
     item: {fileID: 0}
     stack: 0
-  recipeToUpgrade: {fileID: 0}
+  recipeToUpgrade: {fileID: 11400000, guid: 941123510ed1ad445aa97277df7be974, type: 2}
