@@ -87,8 +87,9 @@ public class GrapplingHook : MonoBehaviour
         isGrappling = false;
         isShooting = false;
         // Set position of gun to players hand
-        transform.localPosition = new Vector3(0.0f, 0.27f, 0.85f);
-        transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
+        //transform.localPosition = new Vector3(0.0f, 0.27f, 0.85f);
+        transform.localPosition = new Vector3(-0.8f, 0.25f, 1.0f);
+        transform.localRotation = Quaternion.Euler(new Vector3(0, 0, -25));
         transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
     }
 
