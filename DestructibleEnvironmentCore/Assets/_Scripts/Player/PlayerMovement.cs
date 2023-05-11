@@ -46,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         // Move player & reset angular velocity
         rb.angularVelocity = new Vector3(0, 0, 0);
         rb.MovePosition(transform.position + localMove * speed * Time.deltaTime);
+
+        if (rb.transform.position.y <= -50)
+        {
+            rb.transform.position = new Vector3(-15, 2, 5);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
