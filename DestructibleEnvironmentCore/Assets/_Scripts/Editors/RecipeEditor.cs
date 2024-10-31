@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-
+#if UNITY_EDITOR
 [CustomEditor(typeof(Recipe))]
 public class RecipeEditor : Editor
 {
@@ -63,3 +63,4 @@ public class RecipeEditor : Editor
         serializedObject.ApplyModifiedProperties();
     }
 }
+#endif
